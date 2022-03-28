@@ -5,7 +5,7 @@
 
 body{
     width: auto;
-    height: 1200px;
+    height: auto;
     border: solid 2px;
     font-family: "Cabin", sans-serif;
 }
@@ -222,10 +222,6 @@ nav ul li a{
 div#icon_menu{
     float: left;
 }
-
-#body{
-    border: solid 1px;
-}
 article{
     width: auto;
     height:auto;
@@ -234,23 +230,18 @@ article{
     display: table-row;
 }
 
-/* aside#left{
-    width: 300px;
+aside#left{
     display: table-cell;
     border: solid 1px;
-} */
+}
 
 aside#right{
     display: table-cell;
     border: solid 3px brown;
-    width: 350px;
-    margin: 30px;
 }
 section{
     display: table-cell;
-    width: 590px;
     border: solid 3px pink;
-    margin: 10px;
 }
 /* Menu-vertical-left start*/
 .menu-vertical-left{
@@ -342,12 +333,18 @@ section{
 }
 /* menu-vertical-left end */
 
-.slider{
-    width: 500px;
-    height: 270px;
+/* slideshow section  start*/
+div#slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider{
+    width: 400px;
+    height: 250px;
     border-radius: 10px;
     overflow: hidden;
-    border: solid 2px blue;
   }
   
   .slides{
@@ -366,9 +363,8 @@ section{
   }
   
   .slide img{
-    width: 500px;
-    height: 230px;
-    border-radius: 10px;
+    width: 400px;
+    height: 250px;
   }
   
   /*css for manual slide navigation*/
@@ -402,15 +398,15 @@ section{
   }
   
   #radio2:checked ~ .first{
-    margin-left: -20%;
+    margin-left: -35%;
   }
   
   #radio3:checked ~ .first{
-    margin-left: -40%;
+    margin-left: -115%;
   }
   
   #radio4:checked ~ .first{
-    margin-left: -60%;
+    margin-left: -75%;
   }
   
   /*css for automatic navigation*/
@@ -418,7 +414,7 @@ section{
   .navigation-auto{
     position: absolute;
     display: flex;
-    width: 500px;
+    width: 400px;
     justify-content: center;
     margin-top: 230px;
   }
@@ -448,4 +444,5 @@ section{
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
-  }
+  }  
+/* slideshow section end*/
