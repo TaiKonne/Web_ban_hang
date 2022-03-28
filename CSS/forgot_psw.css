@@ -117,7 +117,7 @@ nav ul{
 }
 nav ul li{
     float: left;
-    padding:0px 60px 0px 5px;
+    padding:0px 10px 0px 5px;
 }
 nav ul li a{
     font-size: 16px;
@@ -126,4 +126,49 @@ nav ul li a{
 }
 div#icon_menu{
     float: left;
+}
+
+div#my_acc{
+    width: auto;
+    height: 60px;
+    background-color: whitesmoke;
+    border: 2px green solid;
+}
+div#my_acc p{
+    text-align: center;
+    padding: 19px;
+    font-weight: bold;
+    font-size: 20px
+}
+div#fpsw{
+    width: auto;
+    height: 300px;
+    border: gray 2px solid;
+}
+div#fpsw p{
+    margin: 50px 0px 20px 150px;
+}
+div#fpsw  label{
+    margin: 50px 0px 20px 150px;
+    font-size: 14px;
+    color: blue;
+}
+div#fpsw input[type=text]
+{
+    width: 600px;
+    padding: 10px 20px;
+    margin: 5px 0px 0px 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#fpsw input#submit{ 
+    width: auto;
+    font-size: 18px;
+    background-color: #d24141;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 12px;
+    margin: 20px 0 0 150px;
 }
