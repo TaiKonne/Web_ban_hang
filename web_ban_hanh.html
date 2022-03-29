@@ -297,67 +297,32 @@
                 </div>
             </aside>
             <section>
-                <div id="slideshow">
-                    <!--image slider start-->
-                    <div class="slider">
-                      <div class="slides">
-                        <!--radio buttons start-->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <!--radio buttons end-->
-                        <!--slide images start-->
-                        <div class="slide first">
-                          <img src="liveshow_1.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                          <img src="liveshow_2.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                          <img src="liveshow_3.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                          <img src="liveshow_4.jpg" alt="">
-                        </div>
-                        <!--slide images end-->
-                        <!--automatic navigation start-->
-                        <div class="navigation-auto">
-                          <div class="auto-btn1"></div>
-                          <div class="auto-btn2"></div>
-                          <div class="auto-btn3"></div>
-                          <div class="auto-btn4"></div>
-                        </div>
-                        <!--automatic navigation end-->
-                      </div>
-                      <!--manual navigation start-->
-                      <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                      </div>
-                      <!--manual navigation end-->
-                    </div>
-                    <!--image slider end-->
-                
-                    <script type="text/javascript">
-                    var counter = 1;
-                    setInterval(function(){
-                      document.getElementById('radio' + counter).checked = true;
-                      counter++;
-                      if(counter > 4){
-                        counter = 1;
-                      }
-                    }, 5000);
-                    </script>
-                </div>
-            </section>
+                <script>
+                    var i = 0;
+                    var images = [];
+                    var time = 5000;
+                    images[0] = 'IMG/liveshow_1.jpg';
+                    images[1] = 'IMG/liveshow_2.jpg';
+                    images[2] = 'IMG/liveshow_3.jpg';
+                    images[3] = 'IMG/liveshow_4.jpg';
+                    function changeImage()
+                    {
+                        document.slide.src = images[i];
+                        if(i < images.length - 1)
+                        {i++; }
+                        else
+                        { i = 0; }
+          
+                        setTimeout("changeImage()", time);
+                    }
+                    window.onload = changeImage;
+                  </script><br>
+                    <img name="slide" width="550px">
+                </section>
             <aside id="right">
                 a
             </aside>
         </article>
     </div>
-    vl
 </body>
 </html>

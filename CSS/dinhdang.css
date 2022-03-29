@@ -5,7 +5,6 @@
 
 body{
     width: auto;
-    height: auto;
     border: solid 2px;
     font-family: "Cabin", sans-serif;
 }
@@ -199,7 +198,7 @@ button:hover {
 nav{
     width: auto;
     height: 60px;
-    padding-top: 20px;
+    padding: 10px 0;
     border: solid 3px;
     margin: 0px 150px 0px 150px;
 }
@@ -222,33 +221,39 @@ nav ul li a{
 div#icon_menu{
     float: left;
 }
+#body{
+  background-color: #3d8dc9;
+  margin: 0 150px;
+}
 article{
     width: auto;
-    height:auto;
     border: solid 3px;
-    margin: 0px 150px 0px 150px;
     display: table-row;
+    margin: 0 150px 0 150px;
 }
 
 aside#left{
-    display: table-cell;
+    display:table-cell;
     border: solid 1px;
+    width: 240px;
 }
 
 aside#right{
     display: table-cell;
     border: solid 3px brown;
+    width: 300px;
 }
 section{
     display: table-cell;
+    width: 550px;
     border: solid 3px pink;
 }
 /* Menu-vertical-left start*/
 .menu-vertical-left{
-    position: relative;
-    width: 240px;
+    /* position: relative; */
+    width: 240px; 
     text-align: left;
-    margin: 10px 10px 10px 150px;
+    margin: auto;
     border: 2px solid blue;
     border-top-right-radius:5px;   
     border-bottom-right-radius:5px;
@@ -332,117 +337,3 @@ section{
     display: none;
 }
 /* menu-vertical-left end */
-
-/* slideshow section  start*/
-div#slideshow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .slider{
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .slides{
-    width: 500%;
-    height: 250px;
-    display: flex;
-  }
-  
-  .slides input{
-    display: none;
-  }
-  
-  .slide{
-    width: 20%;
-    transition: 2s;
-  }
-  
-  .slide img{
-    width: 400px;
-    height: 250px;
-  }
-  
-  /*css for manual slide navigation*/
-  
-  .navigation-manual{
-    position: absolute;
-    width: 400px;
-    margin-top: -20px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .manual-btn{
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-  }
-  
-  .manual-btn:not(:last-child){
-    margin-right: 20px;
-  }
-  
-  .manual-btn:hover{
-    background: #40D3DC;
-  }
-  
-  #radio1:checked ~ .first{
-    margin-left: 0;
-  }
-  
-  #radio2:checked ~ .first{
-    margin-left: -35%;
-  }
-  
-  #radio3:checked ~ .first{
-    margin-left: -115%;
-  }
-  
-  #radio4:checked ~ .first{
-    margin-left: -75%;
-  }
-  
-  /*css for automatic navigation*/
-  
-  .navigation-auto{
-    position: absolute;
-    display: flex;
-    width: 400px;
-    justify-content: center;
-    margin-top: 230px;
-  }
-  
-  .navigation-auto div{
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-  }
-  
-  .navigation-auto div:not(:last-child){
-    margin-right: 20px;
-  }
-  
-  #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;
-  }
-  
-  #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;
-  }
-  
-  #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;
-  }
-  
-  #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #40D3DC;
-  }  
-/* slideshow section end*/
