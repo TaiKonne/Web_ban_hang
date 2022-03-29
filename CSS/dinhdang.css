@@ -248,6 +248,12 @@ section{
     width: 550px;
     border: solid 3px pink;
 }
+/* IMG right hover start */
+aside#right div#img_right img{
+    width:270px;
+}
+/* IMG right hover end */
+
 /* Menu-vertical-left start*/
 .menu-vertical-left{
     /* position: relative; */
