@@ -245,7 +245,7 @@ aside#right{
   width: auto;
 }
 section{
-  display: table-cell;
+  display:table-cell;
   width: auto;
   /* border: solid 3px pink; */
 }
@@ -256,12 +256,13 @@ section{
   width: 200px; 
   text-align: left;
   margin: auto;
-  border: 2px solid blue;
+  border: 2px solid white;
   border-top-right-radius:5px;   
   border-bottom-right-radius:5px;
+  float: left;
 }
 .menu-vertical-left ul {
-  margin: 0;
+  margin:0;
   padding:0;
   position: relative;
   list-style: none;
@@ -345,11 +346,13 @@ div#img_slideshow img{
   width:580px;
   margin: 0 5px;
   height: 310px;
+  float: left;
 }
 /* IMG right hover start */
 aside#right div#img_right img{
-  width:300px;
+  width:305px;
   height: 310px;
+  float: left;
 }
 div#img_right{
   border: 1px solid white;
