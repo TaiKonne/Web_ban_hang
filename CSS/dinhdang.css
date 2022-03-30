@@ -14,6 +14,10 @@ header{
   border: solid 3px;
   margin: 0px 150px 0px 150px;
 }
+div#body{
+  margin: 0 150px 0 150px;
+  width: auto;
+}
 div#ib{
   width: auto;
   height: 10px;
@@ -361,4 +365,46 @@ div#img_right{
 aside#right div#img_right img:hover{
   transform: scale(1.1);
   transition: transform .6s;
+}
+/* banner start*/
+div#banner{
+  border: 2px solid blue;
+}
+div#banner img{
+  width: 785px;
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+/* aside right link ytb start*/
+div#right_bottom{
+  width: 300px;
+  margin-top: 20px;
+  float: left;
+  border: 1px solid orangered;
+}
+div#right_bottom p{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+div#right_bottom ul{
+  width: 300px;
+  float: left;
+}
+div#right_bottom ul li{
+  padding: 10px 0;
+  list-style: none;
+  text-align: left;
+}
+div#right_bottom ul li img{
+  width: 120px;
+  float: left;
+  padding-right: 10px;
+}
+div#right_bottom ul li a{
+  text-decoration: none;
+  color: black;
 }
