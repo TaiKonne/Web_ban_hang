@@ -574,3 +574,67 @@ div#sp_hot_nor4 span#bth_insert_nor4{
   margin-left: 380px;
   border-radius: 10px;
 }
+/* footer start */
+footer{
+  margin-top: 20px;
+  width: auto;
+  height:370px;
+  border: 2px solid black;
+  background-color: #29A07E;
+}
+div#body_footer{
+  margin: 0 150px;
+  width: auto;
+}
+div#body_footer div#address{
+  width: auto;
+  float: left;
+}
+div#body_footer div#footer_icon img{
+  width: 30px;
+  height: 30px;
+}
+
+div#body_footer div#footer_icon{
+  float: right;
+}
+
+div#body_footer div#in4_footer div#address p{
+  font-size: 13px;
+}
+
+div#in4_footer{
+  border: solid 2px; 
+  height: 30px;
+}
+/* map && page start */
+div#map_page{
+  margin-top: 40px;
+  background-color: #29A07E;
+}
+div#map_page p{
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  /* color: white; */
+}
+div#map{
+  float: left;
+  width: auto;
+}
+div#map iframe{
+  width: 500px;
+  height: 262px;
+  border: 1px solid blueviolet;
+  
+}
+div#page iframe{
+  width: 500px;
+  height: 262px;
+}
+div#page{
+  float: right;
+  /* border: red solid 2px; */
+  width: auto;
+  overflow: hidden;
+}
