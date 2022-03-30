@@ -270,6 +270,7 @@ section{
 }
 .menu-vertical-left ul li{
   position: relative;
+  font-size: 13px;
 }
 .menu-vertical-left ul li a{
   display: block;
@@ -695,4 +696,8 @@ div#hotline{
 
 #btt:hover {
   background-color:#d24141;
+}
+
+aside#left div.menu-vertical-left ul li img{
+  vertical-align: middle;
 }
