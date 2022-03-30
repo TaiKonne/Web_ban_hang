@@ -17,6 +17,7 @@ header{
 div#body{
   margin: 0 150px 0 150px;
   width: auto;
+  height: 3000px;
 }
 div#ib{
   width: auto;
@@ -225,10 +226,6 @@ nav ul li a{
 div#icon_menu{
   float: left;
 }
-#body{
-background-color: #3d8dc9;
-margin: 0 150px;
-}
 article{
   width: auto;
   border: solid 3px;
@@ -367,9 +364,6 @@ aside#right div#img_right img:hover{
   transition: transform .6s;
 }
 /* banner start*/
-div#banner{
-  border: 2px solid blue;
-}
 div#banner img{
   width: 785px;
   height: 100px;
@@ -407,4 +401,176 @@ div#right_bottom ul li img{
 div#right_bottom ul li a{
   text-decoration: none;
   color: black;
+}
+/* San pham hot vcl */
+div#nav_sph{
+  float: left;
+  margin-top: -450px;
+  border: 2px solid #000;
+  width: 780px;
+  height: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+div#nav_sph p{
+  border: 1px solid blue;
+  border-radius: 10px;
+  height: 31px;
+  width: 150px;
+  float: left;
+}
+
+div#sp_hot{
+  margin: 130px 310px 0 0;
+}
+div#sp_hot_1 img{
+  float: left;
+  width: 330px;
+  margin-top: -400px;
+}
+div#sp_hot_1 p{
+  margin-top: -60px;
+  float: left;
+  font-size: 12px;
+  padding-left: 20px;
+}
+div#sp_hot_1 span#cost_1{
+  float: left;
+  margin-top: -40px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 110px;
+  color: #29A07E;
+}
+div#sp_hot_1 span#bth_insert_1{
+  border: 1px solid black;
+  margin-top: -10px;
+  padding: 5px;
+  float: left;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+div#sp_hot_nor img{
+  float: left;
+  width: 100px;
+  margin: -400px 30px 20px 180px;
+}
+div#sp_hot_nor p{
+  margin-top: -300px;
+  float: left;
+  font-size: 9px;
+  padding: 5px 0 0 7px;
+  margin-left: 150px;
+  text-align: center;
+}
+div#sp_hot_nor span#cost_nor{
+  float: left;
+  margin-top: -270px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 190px;
+  color: #29A07E;
+}
+div#sp_hot_nor span#bth_insert_nor{
+  border: 1px solid black;
+  margin-top: -240px;
+  font-size: 11px;
+  padding: 5px;
+  float: left;
+  margin-left: 170px;
+  border-radius: 10px;
+}
+
+div#sp_hot_nor2 img{
+  float: left;
+  width: 100px;
+  margin: -400px 30px 20px 380px;
+}
+div#sp_hot_nor2 p{
+  margin-top: -300px;
+  float: left;
+  font-size: 9px;
+  padding: 5px 0 0 18px;
+  margin-left: 330px;
+  text-align: center;
+}
+div#sp_hot_nor2 span#cost_nor2{
+  float: left;
+  margin-top: -270px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 400px;
+  color: #29A07E;
+}
+div#sp_hot_nor2 span#bth_insert_nor2{
+  border: 1px solid black;
+  margin-top: -240px;
+  font-size: 11px;
+  padding: 5px;
+  float: left;
+  margin-left: 380px;
+  border-radius: 10px;
+}
+
+div#sp_hot_nor3 img{
+  float: left;
+  width: 100px;
+  margin: -170px 30px 20px 180px;
+}
+div#sp_hot_nor3 p{
+  margin-top: -70px;
+  float: left;
+  font-size: 9px;
+  padding: 5px 0 0 7px;
+  margin-left: 150px;
+  text-align: center;
+}
+div#sp_hot_nor3 span#cost_nor3{
+  float: left;
+  margin-top: -40px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 190px;
+  color: #29A07E;
+}
+div#sp_hot_nor3 span#bth_insert_nor3{
+  border: 1px solid black;
+  margin-top: -10px;
+  font-size: 11px;
+  padding: 5px;
+  float: left;
+  margin-left: 170px;
+  border-radius: 10px;
+}
+
+div#sp_hot_nor4 img{
+  float: left;
+  width: 100px;
+  margin: -185px 30px 20px 380px;
+}
+div#sp_hot_nor4 p{
+  margin-top: -85px;
+  float: left;
+  font-size: 9px;
+  padding: 5px 0 0 18px;
+  margin-left: 330px;
+  text-align: center;
+}
+div#sp_hot_nor4 span#cost_nor4{
+  float: left;
+  margin-top: -55px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 400px;
+  color: #29A07E;
+}
+div#sp_hot_nor4 span#bth_insert_nor4{
+  border: 1px solid black;
+  margin-top: -25px;
+  font-size: 11px;
+  padding: 5px;
+  float: left;
+  margin-left: 380px;
+  border-radius: 10px;
 }
