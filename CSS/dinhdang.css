@@ -270,6 +270,7 @@ section{
 }
 .menu-vertical-left ul li{
   position: relative;
+  font-size: 13px;
 }
 .menu-vertical-left ul li a{
   display: block;
@@ -401,6 +402,9 @@ div#right_bottom ul li img{
 div#right_bottom ul li a{
   text-decoration: none;
   color: black;
+}
+div#right_bottom ul li a:hover{
+  color: #3d8dc9;
 }
 /* San pham hot vcl */
 div#nav_sph{
@@ -695,4 +699,8 @@ div#hotline{
 
 #btt:hover {
   background-color:#d24141;
+}
+
+aside#left div.menu-vertical-left ul li img{
+  vertical-align: middle;
 }
