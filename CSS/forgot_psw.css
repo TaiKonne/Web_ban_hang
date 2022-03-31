@@ -238,3 +238,40 @@ footer{
     width: auto;
     overflow: hidden;
   }
+
+  /* fast chatting */
+  div#fast_ib{
+    position:fixed;
+    bottom: 10px;
+    left: 0;
+  } 
+  div#zalo_chat{
+    width: 70px;
+    border: 1px solid #0c8800;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #0c8800;
+    color: white;
+  }
+  div#facebook_chat{
+    width: 110px;
+    border: 1px solid #29a07e;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #29a07e;
+    color: white;
+  }
+  div#hotline{
+    width: 140px;
+    border: 1px solid #df043e;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:#df043e;
+    color: white;
+  }
