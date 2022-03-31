@@ -5,7 +5,7 @@
 
 body{
     width: auto;
-    border: solid 2px;
+    border: blue solid 2px;
     font-family: "Cabin", sans-serif;
 }
 header{
@@ -142,10 +142,112 @@ div#my_acc p{
 div#contact_form
 {
     float: left;
-    width: 500px;
     border: 2px solid red;
+    margin: 10px 340px;
 }
 div#contact_form p{
-
+    padding: 10px 0px 10px 0px;
 }
-
+div#contact_form label{
+    color: blue;
+    padding-bottom: 10px;
+}
+div#contact_form input#user{
+    width: 700px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#sdt{
+    width: 700px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#email{
+    width: 700px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#submit{ 
+    width: auto;
+    font-size: 18px;
+    background-color: #d24141;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 12px;
+    margin: 20px 0 0 255px;
+}
+/* footer start */
+footer{
+    margin-top: 550px;
+    width: auto;
+    border: 2px solid orange;
+    height:370px;
+  
+    background-color: #29A07E;
+  }
+  div#body_footer{
+    margin: 0 150px;
+    width: auto;
+  }
+  div#body_footer div#address{
+    width: auto;
+    float: left;
+  }
+  div#body_footer div#footer_icon img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  div#body_footer div#footer_icon{
+    float: right;
+  }
+  
+  div#body_footer div#in4_footer div#address p{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  div#in4_footer{
+    padding-top: 10px;
+    border: #29A07E solid 2px; 
+    height: 30px;
+  }
+  /* map && page start */
+  div#map_page{
+    margin-top: 40px;
+    background-color: #29A07E;
+  }
+  div#map_page p{
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+  }
+  div#map{
+    float: left;
+    width: auto;
+  }
+  div#map iframe{
+    width: 500px;
+    height: 262px;
+    border: 1px solid blueviolet;
+    
+  }
+  div#page iframe{
+    width: 500px;
+    height: 262px;
+  }
+  div#page{
+    float: right;
+    /* border: red solid 2px; */
+    width: auto;
+    overflow: hidden;
+  }
