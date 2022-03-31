@@ -701,3 +701,62 @@ div#hotline{
 aside#left div.menu-vertical-left ul li img{
   vertical-align: middle;
 }
+                /* sản phẩm hiển thị body trang web */
+div#san_pham{     
+  border-bottom: #29a07e solid 2px;
+  margin: 20px 0px 20px 0px;
+  width: 1100px;
+  height: 33px;
+  float: left;
+  color: white;
+  border-radius: 20px;
+  align-items: center;
+}
+
+div#title_product{
+  width: auto;
+  height: 34px;
+  border: solid 1px;
+  float: left;
+  border-radius: 20px;
+  background-color: #29a07e;
+}
+
+#title_product p{
+  line-height: 33px;
+}
+
+#danh_muc{
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+
+#danh_muc ul{
+  width: auto;
+  height: 33px;
+  float: left;
+}
+
+#danh_muc ul li a{
+  text-decoration: none;
+}
+
+#danh_muc ul li{
+  list-style: none;
+  float: left;
+  margin:0px 10px 0px 10px;
+  border: solid 1px;
+  line-height: 27px;
+}
+
+#xem_tat_ca{
+  width: auto;
+  float: right;
+  color: black;
+  line-height: 29px;
+}
+
+#xem_tat_ca a{
+  text-decoration: none;
+}
