@@ -5,7 +5,6 @@
 
 body{
     width: auto;
-    border: blue solid 2px;
     font-family: "Cabin", sans-serif;
 }
 header{
@@ -142,7 +141,6 @@ div#my_acc p{
 div#contact_form
 {
     float: left;
-    border: 2px solid red;
     margin: 10px 340px;
 }
 div#contact_form p{
@@ -187,7 +185,6 @@ div#contact_form input#submit{
 footer{
     margin-top: 550px;
     width: auto;
-    border: 2px solid orange;
     height:370px;
   
     background-color: #29A07E;
