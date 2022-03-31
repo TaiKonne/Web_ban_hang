@@ -7,6 +7,7 @@ body{
   width: auto;
   border: solid 2px;
   font-family: "Cabin", sans-serif;
+  height: 2900px;
 }
 header{
   width: auto;
@@ -579,10 +580,9 @@ div#sp_hot_nor4 span#bth_insert_nor4{
 }
 /* footer start */
 footer{
-  margin-top: 20px;
+  margin-top: 1200px;
   width: auto;
   height:370px;
-
   background-color: #29A07E;
 }
 div#body_footer{
@@ -706,7 +706,7 @@ aside#left div.menu-vertical-left ul li img{
                 /* sản phẩm hiển thị body trang web */
 div#san_pham{     
   border-bottom: #29a07e solid 2px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
   width: 1100px;
   height: 33px;
   float: left;
@@ -761,5 +761,68 @@ div#title_product{
 
 #xem_tat_ca a{
   text-decoration: none;
-  
+}
+
+#gian_hang{
+  border: #df043e solid 2px;
+  margin-top: 10px;
+  float: left;
+  width: auto;
+  height: 800px;
+}
+
+#san_pham_body{
+  width: auto;
+  border: solid 1px;
+  margin-top: 10px;
+  float: left;
+}
+
+#buy_product{
+  border: solid 1px blue;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  float: left;
+}
+
+#buy_product #ten_san_pham{
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  text-decoration: under-line;
+}
+
+#ten_san_pham:hover{
+  color: #59c3da;
+  font-size: 15px;
+}
+
+#buy_product #gia_san_pham{
+  text-align: center;
+  padding-top: 10px;
+  color: #29a07e;
+  font-weight: bolder;
+}
+
+#buy_product img{
+  width: 200px;
+  height: 200px;
+  border-radius: 11px;
+}
+
+#button_buy{
+  border: #29a07e solid 1px;
+  width: 126px;
+  height: 30px;
+  background-color: #29a07e;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#button_buy p{
+  padding-top: 6px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
 }
