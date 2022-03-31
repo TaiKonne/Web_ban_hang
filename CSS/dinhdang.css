@@ -170,7 +170,7 @@ button:hover {
 }
 
 /* The Close Button (x) */
-.close {
+.close{
   position: absolute;
   right: -140px;
   top: -140px;;
@@ -183,7 +183,6 @@ button:hover {
   color: red;
   cursor: pointer;
 }
-
 /* Add Zoom Animation */
 .animate {
   -webkit-animation: animatezoom 0.6s;
@@ -402,6 +401,9 @@ div#right_bottom ul li img{
 div#right_bottom ul li a{
   text-decoration: none;
   color: black;
+}
+div#right_bottom ul li a:hover{
+  color: #3d8dc9;
 }
 /* San pham hot vcl */
 div#nav_sph{

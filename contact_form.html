@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/forgot_psw.css" type="text/css">
+    <link rel="stylesheet" href="CSS/contact_form.css" type="text/css">
     <title>LẮC ĐẦU</title>
 </head>
 <body>
@@ -51,14 +51,21 @@
             </nav>
     </div>
     <div id="my_acc">
-        <p>MY ACCOUNT</p>
+        <p>CONTACT WITH US</p>
     </div>
-    <div id="fpsw">
-        <p>Quên mật khẩu? Vui lòng nhập tên đăng nhập hoặc địa chỉ email. Bạn sẽ được nhận một liên kết tạo mật khẩu mới qua email</p>
-        <label for="user_or_email">Tên đăng nhập hoặc email</label><br>
-        <input type="text" name="user_or_email"><br>
+    <div id="contact_form">
+        <p>Điền đầy đủ thông tin theo định dạng. Chúng tôi sẽ trả lời bạn nhanh chóng nhất có thể qua email. </p>
+        <label for="username">Họ & Tên &#42;</label><br>
+        <input type="text" name="username" id="user" placeholder="VD: Nguyễn Tấn Tài"><br>
+        <label for="telephone">Số điện thoại liên lạc &#42;</label><br>
+        <input type="tel" pattern="[0-9] {10}" placeholder="VD: 0123456789" name="telephone" id="sdt"><br>
+        <label for="email">Địa chỉ email &#42;</label><br>
+        <input type="email" name="email" id="email" placeholder="VD: abc123@xyz.com"><br>
+        <label for="content">Nội dung &#42;</label><br>
+        <textarea name="content" id="textarea" cols="92" rows="10">Mời nhập nội dung...</textarea><br>
         <input type="submit" value="Đặt lại mật khẩu" id="submit">
     </div>
+
     <footer>
         <div id="body_footer">
             <div id="in4_footer">
@@ -89,11 +96,11 @@
                 </div>
             </div>
         </div>
-    </footer>
-    <div id="fast_ib">
-        <div id="zalo_chat">Chat Zalo</div>
-        <div id="facebook_chat">Chat facebook</div>
-        <div id="hotline">hotline:<b>0349296461</b></div>
-    </div>
+</footer>
+<div id="fast_ib">
+    <div id="zalo_chat">Chat Zalo</div>
+    <div id="facebook_chat">Chat facebook</div>
+    <div id="hotline">hotline:<b>0349296461</b></div>
+</div>
 </body>
 </html>

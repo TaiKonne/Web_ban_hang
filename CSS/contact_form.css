@@ -5,7 +5,6 @@
 
 body{
     width: auto;
-    height: auto;
     font-family: "Cabin", sans-serif;
 }
 header{
@@ -139,29 +138,40 @@ div#my_acc p{
     font-weight: bold;
     font-size: 20px
 }
-div#fpsw{
-    width: auto;
-    height: 300px;
-    border: gray 2px solid;
-}
-div#fpsw p{
-    margin: 50px 0px 20px 150px;
-}
-div#fpsw  label{
-    margin: 50px 0px 20px 150px;
-    font-size: 14px;
-    color: blue;
-}
-div#fpsw input[type=text]
+div#contact_form
 {
-    width: 600px;
-    padding: 10px 20px;
-    margin: 5px 0px 0px 150px;
-    display: inline-block;
+    float: left;
+    margin: 10px 340px;
+}
+div#contact_form p{
+    padding: 10px 0px 10px 0px;
+}
+div#contact_form label{
+    color: blue;
+    padding-bottom: 10px;
+}
+div#contact_form input#user{
+    width: 700px;
+    margin: 10px 0;
+    padding: 10px 15px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-div#fpsw input#submit{ 
+div#contact_form input#sdt{
+    width: 700px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#email{
+    width: 700px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#submit{ 
     width: auto;
     font-size: 18px;
     background-color: #d24141;
@@ -169,11 +179,11 @@ div#fpsw input#submit{
     color: white;
     border: 1px solid white;
     padding: 10px 12px;
-    margin: 20px 0 0 150px;
+    margin: 20px 0 0 255px;
 }
-
 /* footer start */
 footer{
+    margin-top: 550px;
     width: auto;
     height:370px;
   
@@ -238,8 +248,7 @@ footer{
     width: auto;
     overflow: hidden;
   }
-
-  /* fast chatting */
+/* fast chatting */
   div#fast_ib{
     position:fixed;
     bottom: 10px;
