@@ -7,7 +7,7 @@ body{
   width: auto;
   border: solid 2px;
   font-family: "Cabin", sans-serif;
-  height: 2900px;
+  height: 5500px;
 }
 header{
   width: auto;
@@ -580,7 +580,7 @@ div#sp_hot_nor4 span#bth_insert_nor4{
 }
 /* footer start */
 footer{
-  margin-top: 1200px;
+  margin-top: 3800px;
   width: auto;
   height:370px;
   background-color: #29A07E;
@@ -695,7 +695,6 @@ div#hotline{
   padding: 10px 12px;
   border-radius: 20px;
 }
-
 #btt:hover {
   background-color:#d24141;
 }
@@ -738,6 +737,7 @@ div#title_product{
   width: auto;
   height: 33px;
   float: left;
+  margin-left: 100px;
 }
 
 #danh_muc ul li a{
@@ -768,7 +768,7 @@ div#title_product{
   margin-top: 10px;
   float: left;
   width: auto;
-  height: 800px;
+  height: 730px;
 }
 
 #san_pham_body{
@@ -779,18 +779,19 @@ div#title_product{
 }
 
 #buy_product{
-  border: solid 1px blue;
+  border: solid 1px green;
   width: 200px;
   height: 300px;
-  padding: 20px;
   float: left;
+  margin: 8.5px;
 }
 
 #buy_product #ten_san_pham{
   text-align: center;
   font-size: 13px;
-  padding-top: 10px;
-  text-decoration: under-line;
+  padding: 10px 15px 10px 15px;
+  float: left;
+  text-align: center;
 }
 
 #ten_san_pham:hover{
@@ -806,8 +807,9 @@ div#title_product{
 }
 
 #buy_product img{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  padding-left: 25px;
   border-radius: 11px;
 }
 
@@ -817,7 +819,7 @@ div#title_product{
   height: 30px;
   background-color: #29a07e;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #button_buy p{
