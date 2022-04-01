@@ -278,3 +278,45 @@ div#tintuc a{
 div#tintuc a:hover{
     color: blue;
 }
+
+/* aside right  */
+aside#top_right{
+  border: 1px solid red;
+  float: left;
+  margin:-1769.5px 10px 0 10px;
+  width: 274px;
+}
+div#title1{
+  padding: 10px 0;
+}
+div#title1 span{
+  padding:10px 5px;
+  border-bottom: 1px solid gray;
+}
+div#listtt img{
+  float: left;
+  padding: 5px;
+  width: 70px;
+}
+div#listtt ul li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+div#listtt ul li p{
+  float: left;
+  font-size: 13px;
+  padding: 10px;
+  text-align: left;
+}
+div#listtt ul li a{
+  color: black;
+  text-decoration: none;
+}
+div#listtt ul li a:hover{
+  color: blue;
+}
+div#listtt span{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
