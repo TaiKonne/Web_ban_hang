@@ -275,6 +275,7 @@ div#content_paper p{
 }
 div#content_paper img{
   width: 780px;
+  padding: 10px 0;
 }
 div#content_paper span#muc_nho{
   font-weight: bold;
@@ -297,12 +298,12 @@ diV#content_paper img#img2{
 div#icon{
   margin:50px 10px 10px 10px;
   border-bottom: 1px solid gray;
-  padding: 10px 300px;
+  padding: 10px 280px;
   color: gray;
 }
 div#icon img{
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
 }
 div#icon img:hover{
   transform: scale(1.1);
@@ -335,7 +336,18 @@ div#continue_page{
   padding: 20px 0;
   border-bottom: 1px solid gray;
 }
-div#continue_page p{
+div#continue_page p a{
+  color: black;
+  text-decoration: none;
+}
+div#continue_page a:hover{
+  color: blue;
+}
+div#continue_page p#prev{
+  font-size: 19px;
+  float: left;
+}
+div#continue_page p#next{
   font-size: 19px;
   float: right;
 }
@@ -381,7 +393,8 @@ div#form_phanhoi input#submit{
 aside#top_right{
   border: 2px solid #29A07E;
   float: left;
-  margin:-4500px 10px 0 20px;
+  position: absolute;
+  margin:10px 10px 0 20px;
   width: 274px;
 }
 div#title1{
@@ -424,7 +437,7 @@ div#listtt span{
 }
 /* footer start */
 footer{
-  margin-top: 1650px;
+  margin-top: 2360px;
   width: auto;
   height:370px;
   background-color: #29A07E;
