@@ -453,7 +453,7 @@ div#sp_hot_1 span#bth_insert_1{
   padding: 5px;
   float: left;
   margin-left: 70px;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 div#sp_hot_nor img{
   float: left;
@@ -789,6 +789,7 @@ div#title_product{
 #buy_product #ten_san_pham{
   text-align: center;
   font-size: 13px;
+  height: 55px;
   padding: 10px 15px 10px 15px;
   float: left;
   text-align: center;
@@ -819,7 +820,7 @@ div#title_product{
   height: 30px;
   background-color: #29a07e;
   border-radius: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #button_buy p{
@@ -828,3 +829,4 @@ div#title_product{
   text-align: center;
   font-size: 13px;
 }
+
