@@ -10,7 +10,6 @@ body{
 header{
     width: auto;
     height: 90px;
-    border: solid 3px;
     margin: 0px 150px 0px 150px;
 }
 div#ib{
@@ -18,7 +17,8 @@ div#ib{
     height: 10px;
     margin:0px;
     padding-bottom: 40px;
-    border: solid 1px;
+    border: solid #29a07e;
+    background-color: #29a07e;
 }
 div#ib ul{
     float: left;
@@ -76,6 +76,11 @@ div #logo{
     height: 33px;
     width: 58px;
     margin: 0px 0px 0px 10px;
+    border: none;
+}
+
+.thanh_tim button:hover{
+    background-color: #db6767;
 }
                                         /* ======================== cần được sửa icon shopee */
 #icon_shop{     
@@ -89,6 +94,7 @@ div #logo{
 }
 #sdt b{
     font-size: 30px;
+    color: #29A07E;
 }
 #gio_hang{
     padding: 30px 0px 30px 0px;
@@ -98,30 +104,35 @@ div #logo{
     width: 120px;
     height: 25px;
     font-weight: bold;
+    border-radius: 10px;
+    background-color: #29A07E;
+    border: #29A07E;
 }
 nav{
     width: auto;
     height: 60px;
-    padding-top: 20px;
-    border: solid 3px;
+    padding: 10px 0;
     margin: 0px 150px 0px 150px;
-}
-nav ul{
+  }
+  nav ul{
     list-style: none;
-    border: 1px solid red;
+  background-color: #29A07E;
     width: auto;
     height: 40px;
     padding:20px 15px 0px 15px;
-}
-nav ul li{
+    border-radius: 10px;
+    color: white;
+  }
+  nav ul li{
     float: left;
     padding:0px 10px 0px 5px;
-}
-nav ul li a{
+  }
+  nav ul li a{
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
-}
+    color: white;
+  }
 div#icon_menu{
     float: left;
 }
@@ -142,6 +153,9 @@ div#contact_form
 {
     float: left;
     margin: 10px 340px;
+    border-left: dashed 2px #29A07E;
+    border-right: dashed 2px #29A07E;
+    padding: 0px 10px;
 }
 div#contact_form p{
     padding: 10px 0px 10px 0px;

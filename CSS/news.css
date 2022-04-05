@@ -11,7 +11,6 @@
   header{
     width: auto;
     height: 90px;
-    border: solid 3px;
     margin: 0px 150px 0px 150px;
   }
   div#body{
@@ -24,7 +23,7 @@
     height: 10px;
     margin:0px;
     padding-bottom: 40px;
-    border: solid 1px;
+    background-color: #29a07e;
   }
   div#ib ul{
     float: left;
@@ -95,6 +94,7 @@
   }
   #sdt b{
     font-size: 30px;
+    color: #29A07E;
   }
   #gio_hang{
     padding: 30px 0px 30px 0px;
@@ -104,6 +104,8 @@
     width: 120px;
     height: 25px;
     font-weight: bold;
+    border-radius: 10px;
+    background-color: #29a07e;
   }
   /* Login form star */
   input[type=text], input[type=password] {
@@ -203,15 +205,16 @@
     width: auto;
     height: 60px;
     padding: 10px 0;
-    border: solid 3px;
     margin: 0px 150px 0px 150px;
   }
   nav ul{
     list-style: none;
-    border: 1px solid red;
+  background-color: #29A07E;
     width: auto;
     height: 40px;
     padding:20px 15px 0px 15px;
+    border-radius: 10px;
+    color: white;
   }
   nav ul li{
     float: left;
@@ -221,6 +224,7 @@
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
+    color: white;
   }
   div#icon_menu{
     float: left;
@@ -229,13 +233,11 @@
 div#body{
     width: auto;
     margin: 10px 150px 0px 150px;
-    border: 1px solid black;
 }
 article{
     width: auto;
     margin: 0;
     padding: 0;
-    border: 2px solid orange;
     display: table-row;
 }
 section{
@@ -245,7 +247,6 @@ section{
 div#title{
     width: auto;
     padding: 5px 0;
-    border: 2px solid pink;
 }
 div#title p{
     font-weight: bold;
@@ -255,7 +256,6 @@ div#title p{
 div#tintuc{
     width: 800px;
     height: 165px;
-    border: 1px solid green;
     margin: 10px 0;
 }
 div#tintuc img{
@@ -296,7 +296,6 @@ div#title1{
 div#title1 span{
   margin: 10px 5px;
   padding: 10px 176px 10px 0;
-  border-bottom: 1px solid grey;
   font-weight:  bold;
 }
 div#listtt img{
