@@ -303,22 +303,12 @@ padding: 15px 0px 0px 25px;
 font-size: 17px;
 font-weight: bold;
 }
-div#continue_page{
-float: left;
+div#form_phanhoi{
 width: 780px;
-margin: 20px 10px 10px 0;
-padding: 20px 0;
-border-bottom: 1px solid gray;
-}
-div#continue_page p{
-font-size: 19px;
-float: right;
-}
-div#content_paper div#form_phanhoi{
-width: 780px;
-margin-top:300px;
+margin-top:30px;
 background-color: #f2f2f2;
 border: 1px solid blueviolet;
+float: left;
 }
 div#form_phanhoi p{
   font-size: 20px;
@@ -354,24 +344,177 @@ border: 1px solid #d24141;
 }
 /* aside right start*/
 
+section{
+  width: auto;
+  border: solid 1px purple;
+  display: table-cell;
+}
+
 #top_right{
-border: 2px solid #29A07E;
-float: left;
-width: 274px;
-height: 708px;
+  display: table-cell;
+  width: 300px;
+  float: right;
+  margin-left: 10px;
+}
+
+#top_right{
+  border: 2px solid #29A07E;
+  float: left;
+  width: 274px;
+  height: 708px;
 }
 
 #top_mid{
-  width: 475px;
+  width: 420px;
   height: 708px;
+  float: left;
+  border: solid 1px;
+}
+
+#top_mid #ten_sp{
+  height: 50px;
+}
+
+#top_mid #ten_sp p{
+  border-bottom: #88F1CC solid 1px;
+  width: 400px;
+  float: left;
+  padding-bottom:20px ;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+#top_mid #gia{
+  width: 425px;
+  float: left;
+  margin-left: 10px;
+}
+
+#chi_tiet{
+  border: solid 1px;
+  width: 390px;
+  float: left;
+  margin-top: 18px;
+}
+
+#top_mid #ho_tro{
+  margin-top: 15px;
+  float: left;
+  border: solid 1px #29a07e;
+  font-size: 15px;
+  width: 420px;
+  background-color: #fefff0;
+}
+
+#top_mid #ho_tro #doi_tra{
+  margin-left: 10px;
+}
+
+#top_mid #ho_tro #chinh_sach{
+  color: #29a07e;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+#button_buy_1{
+  width: 380px;
+  float: left;
+  margin-top: 18px;
+}
+
+#button_buy_1 #button_1{
+  width: 122px;
+  height: 40px;
+  background-color: red;
+  border-radius: 15px;
+  float: left;
+  margin-right: 30px;
+}
+
+#button_buy_1 button #icon_fb{
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  float: left;
+  margin-left: 14px;
+  line-height: 30px;
+}
+
+#button_buy_1 button #text_fb{
+  line-height: 30px;
+  font-size: 15px;
+  color: white;
+}
+
+#button_2{
+  width: 122px;
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  float: left;
+}
+
+#button_2 img{
+  margin-top: 3px;
+  width: 112px;
+}
+
+#button_buy_2{
+  margin-top: 30px;
+  float: left;
+}
+
+#button_3{
+  height: 40px;
+  width: 380px;
+  background-color: #29A07E;
+  border-radius: 8px;
+}
+
+#button_3 p{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#ho_tro #doi_tra p{
+  padding: 10px;
+  width: 420px;
+}
+
+#top_mid #gia p{
+  float: left;
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#chi_tiet p{
+  padding: 7px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
 }
 
 #top_left{
   float: left;
-  width: 345px;
+  width: 380px;
   height: 708px;
 }
 
+div#body{
+  margin: 0px 150px 0px 150px;
+  border: solid 3px red;
+}
+
+article{
+  width: auto;
+  border:red solid 1px;
+  margin: 0px 150px;
+  display: table-row;
+}
 
 div#title1{
 padding: 10px 0;
@@ -412,27 +555,11 @@ font-weight: bold;
 font-size: 17px;
 }
 
-article{
-  width: auto;
-  border:red solid 1px;
-  margin: 0px 150px;
-  display: table-row;
-}
 
-section{
-  width: 800px;
-  border: solid 1px purple;
-  display: table-cell;
-}
-
-#top_right{
-  display: table-cell;
-  width: 300px;
-}
 
 /* footer start */
 footer{
-margin-top: 1650px;
+margin-top: 400px;
 width: auto;
 height:370px;
 background-color: #29A07E;
@@ -554,3 +681,100 @@ background-color:#d24141;
 aside#left div.menu-vertical-left ul li img{
 vertical-align: middle;
 }
+
+              /* slide show sản phẩm */
+              
+              /* Position the image container (needed to position the left and right arrows) */
+              .container_5 {
+                position: relative;
+                width: 380px;
+              }
+              
+              /* Hide the images by default */
+              .mySlides_5 {
+                display: none;
+              }
+              
+              /* Add a pointer when hovering over the thumbnail images */
+              .cursor_5 {
+                cursor: pointer;
+              }
+              
+              /* Next & previous buttons */
+              .prev_5,
+              .next_5 {
+                cursor: pointer;
+                position: absolute;
+                top: 40%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: red;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+              }
+              
+              /* Position the "next button" to the right */
+              .next_5 {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev_5:hover,
+              .next_5:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+              
+              /* Number text (1/3 etc) */
+              .numbertext_5 {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              
+              /* Container for image text */
+              .caption-container_5 {
+                text-align: center;
+                background-color: #222;
+                padding: 2px 16px;
+                color: white;
+              }
+              
+              .row_5:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              .row_5{
+                width: 413px;
+              }
+            
+              /* Six columns side by side */
+              .column_5 {
+                float: left;
+                width: 85px;
+                height: 90px;
+                margin: 4px;
+              }
+              
+              /* Add a transparency effect for thumnbail images */
+              .demo_5 {
+                opacity: 0.6;
+              }
+              
+              #row_5 img{
+                width: 90px;
+                height: 80px;
+                margin: 4px;
+              }
+            
+              .active_5, .demo_5:hover {
+                opacity: 1;
+              }
