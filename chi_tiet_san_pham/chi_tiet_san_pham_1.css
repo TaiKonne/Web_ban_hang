@@ -554,38 +554,8 @@ padding: 10px;
 font-weight: bold;
 font-size: 17px;
 }
-<<<<<<< HEAD
 
 
-=======
-div#body{
-  width: auto;
-  margin: 10px 150px 0px 150px;
-}
-article{
-width: auto;
-display: table-row;
-}
-section{
-width: auto;
-display: table-cell;
-border: 1px solid purple;
-}
-div#topleft{
-  width: 800px;
-  margin: 10px 0px;
-}
-div#topleft p{
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-aside#top_right{
-  display: table-cell;
-  width: 300px;
-}
->>>>>>> 883d7de2e4c0b2ada7d2080e10d9aa4968926b43
 
 /* footer start */
 footer{
