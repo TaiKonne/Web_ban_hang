@@ -354,12 +354,10 @@ section{
   display: table-cell;
   width: 300px;
   float: right;
-  margin-left: 10px;
 }
 
 #top_right{
   border: 2px solid #29A07E;
-  float: left;
   width: 274px;
   height: 708px;
 }
@@ -500,7 +498,7 @@ section{
 
 #top_left{
   float: left;
-  width: 380px;
+  width: 370px;
   height: 708px;
 }
 
@@ -554,8 +552,11 @@ padding: 10px;
 font-weight: bold;
 font-size: 17px;
 }
+<<<<<<< HEAD:CSS/chi_tiet_san_pham_1.css
+=======
 
 
+>>>>>>> e0952667cfbd0608038df8e1c4fc0e06d60e77bb:chi_tiet_san_pham/chi_tiet_san_pham_1.css
 
 /* footer start */
 footer{
@@ -681,9 +682,7 @@ background-color:#d24141;
 aside#left div.menu-vertical-left ul li img{
 vertical-align: middle;
 }
-
               /* slide show sản phẩm */
-              
               /* Position the image container (needed to position the left and right arrows) */
               .container_5 {
                 position: relative;
