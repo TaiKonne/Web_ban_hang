@@ -300,167 +300,39 @@ div#login_very_fast{
   border: 1px solid red;
   margin:15px 0;
 }
-.open-button1 {
-  cursor: pointer;
-  opacity: 0.8;
-  border:none;
-}
-
-/* The popup form - hidden by default */
-.form-popup1 {
-  display: none;
-  width: 1090px;
-  z-index: 9;
-}
-/* Add styles to the form container */
-.form-container1 {
-  max-width: 1090px;
-  padding: 10px;
-  background-color: white;
-}
-div#dashed{
+div#f1{
   border: 2px dashed green;
-  width:auto;
-  height: 210px;
+  margin: 10px 0;
+  padding: 10px 0;
 }
-/* Full-width input fields */
-.form-container1 input[type=text], .form-container1 input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-.form-container1 input[type=text]:focus, .form-container1 input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/login button */
-.form-container1 .btn1 {
-  background-color: #04AA6D;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  width: 150px;
-  margin-bottom:10px;
-  opacity: 0.8;
-}
-
-/* Add a red background color to the cancel button */
-.form-container1 .cancel1 {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-.form-container1 .btn1:hover, .open-button1:hover {
-  opacity: 1;
-}
-div#user{
-  width: 500px;
-  float: left;
-}
-div#user label{
-  color: blue;
-}
-div#passw{
-  width: 500px;
-  float: right;
-}
-div#passw label{
+div#f1 label{
   color: blue;
 }
 div#submt{
-  width: 180px;
-  float: left;
   color: blue;
 }
-div#cancle{
-  width: 180px;
-  float: left;
-  margin-top: 40px;
-}
-div#forgot{
-  float: left;
-  width: 1090px;
-}
 div#forgot a{
+  color: black;
   text-decoration: none;
-  color: #000;
 }
 div#forgot a:hover{
   color: blue;
 }
-
-.open-button2 {
-  cursor: pointer;
-  opacity: 0.8;
-  border:none;
-}
-
-/* The popup form - hidden by default */
-.form-popup2 {
-  display: none;
-  width: 1090px;
-  z-index: 9;
-}
-/* Add styles to the form container */
-.form-container2 {
-  max-width: 1090px;
-  padding: 10px;
-  background-color: white;
-}
-div#dashed2{
-  border: 2px dashed green;
-  width:auto;
-  height: 160px;
-}
-/* Full-width input fields */
-.form-container2 input[type=text], .form-container2 input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-.form-container2 input[type=text]:focus, .form-container2 input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/login button */
-.form-container2 .btn2 {
-  background-color: #04AA6D;
+div#submt input , div#submt2 input{
+  font-weight: bold;
   color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  width: 150px;
-  margin-bottom:10px;
-  opacity: 0.8;
+  background-color: #d24141;
+  font-size: 17px;
+  padding: 10px 20px;
+  border: 1px solid #d24141;
 }
 
-/* Add a red background color to the cancel button */
-.form-container2 .cancel2 {
-  background-color: red;
+div#body2{
+  width: auto;
+  margin: 0 150px;
 }
-
-/* Add some hover effects to buttons */
-.form-container2 .btn2:hover, .open-button2:hover{
-  opacity: 1;
-}
-div#user2{
-  width: 1050px;
-  float: left;
-}
-div#submt2{
-  width: 180px;
-  float: left;
+span#myBtn2:hover , span#myBtn1:hover{
+  color: blue;
 }
 article{
   width: auto;
@@ -492,9 +364,6 @@ div#bill{
   float: right;
   width: 460px;
   border: 2px solid green;
-  position: absolute;
-  right:151px;
-  top: 335px;
 }
 div#bill h2{
   margin: 20px 0 10px 15px;
