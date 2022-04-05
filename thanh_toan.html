@@ -99,7 +99,7 @@
                     <p><a href="#">Xem tất cả</a></p>
                 </div>
                 <div id="thanh_toan">
-                    <p><a href="#">Thanh toán</a></p>
+                    <p><a href="forgot_psw.html">Thanh toán</a></p>
                 </div>
             </div>
         </div>
@@ -122,186 +122,204 @@
     </div>
     <div id="body">
         <div id="login_very_fast">
-            Bạn đã có tài khoản?<button class="open-button1" onclick="openForm()">Ấn vào đây để đăng nhập</button><br><br>
-            <div class="form-popup1" id="myForm1">
-                <div id="dashed">
-                    <form action="/action_page.php" class="form-container1">
-                        <div id="user">
-                            <label for="username">Tên đăng nhập &#42;</label>
-                            <input type="text" name="username" id="user">
-                        </div>
-                        <div id="passw">
-                            <label for="password">Mật Khẩu &#42;</label>
-                            <input type="password" name="password" id="pass">
-                        </div>
-                        <div id="submt">
-                            <input type="checkbox" name="remember" id="checkbox"> Ghi nhớ mật Khẩu<br><br>
-                            <input type="submit" name="submit" id="submit" value="Đăng nhập" class="btn1">
-                        </div>
-                    <div id="cancle">
-                        <button type="button" class="btn1 cancel1" onclick="closeForm()">Hủy</button>
-                        
+                Bạn đã có tài khoản?<span onclick="myFunction2()" id="myBtn2">Ấn vào đây để đăng nhập</span><br>
+                <span id="more2" style="display:none;">
+                    <div id="f1">
+                        <form>
+                             <div id="user">
+                                <label for="username">Tên đăng nhập &#42;</label>
+                                <input type="text" name="username" id="user">
+                            </div>
+                            <div id="passw">
+                                <label for="password">Mật Khẩu &#42;</label>
+                                <input type="password" name="password" id="pass">
+                            </div>
+                            <div id="submt">
+                                <input type="checkbox" name="remember" id="checkbox"> Ghi nhớ mật Khẩu<br><br>
+                                <input type="submit" name="submit" id="submit" value="Đăng nhập">
+                            </div>
+                               <div id="forgot">
+                                <a href="forgot_psw.html">Quên mật khẩu ?</a>
+                            </div>
+                        </form>
                     </div>
-                    <div id="forgot">
-                        <a href="forgot_psw.html">Quên mật khẩu ?</a>
-                    </div>
-                    </form>
-                </div>
-            </div>
-            Bạn đã có voucher?<button class="open-button2" onclick="openForm2()">Ấn vào đây để nhập</button>
-            <div class="form-popup2" id="myForm2">
-                <div id="dashed2">
-                    <form action="/action_page.php" class="form-container2">
+                </span>
+                <span id="dots2"></span>
+            Bạn đã có voucher?<span onclick="myFunction1()" id="myBtn1">Ấn vào đây để nhập</span>
+                <span id="more1" style="display: none;">
+                   <div id="f1">
+                    <form action="/action_page.php">
                         <div id="user2">
                             <label for="voucher">Nhập mã giảm giá của bạn &#42;</label>
                             <input type="text" name="username" id="user">
                         </div>
                         <div id="submt2">
-                            <input type="submit" name="submit" id="submit" value="Áp Dụng" class="btn2">
-                        </div>
-                        <div id="cancle2">
-                            <button type="button" class="btn2 cancel2" onclick="closeForm2()">Hủy</button>
+                            <input type="submit" name="submit" id="submit" value="Áp Dụng">
                         </div>
                     </form>
-                </div>
+                   </div>
+                </span>
+                <span id="dots1"></span>
             </div>
             <script>
-                function openForm() {
-                    document.getElementById("myForm1").style.display = "block";
+                function myFunction2() {
+                var dots = document.getElementById("dots2");
+                var moreText = document.getElementById("more2");
+                var btnText = document.getElementById("myBtn2");
+
+                if (dots2.style.display === "none") {
+                    dots2.style.display = "inline";
+                    btnText.innerHTML = "Ấn vào đây để đăng nhập"; 
+                    moreText.style.display = "none";
+                } 
+                else {
+                    dots2.style.display = "none";
+                    btnText.innerHTML = "Ấn vào đây để đăng nhập"; 
+                    moreText.style.display = "inline";
                 }
-                function closeForm() {
-                    document.getElementById("myForm1").style.display = "none";
                 }
-                function openForm2() {
-                    document.getElementById("myForm2").style.display = "block";
+
+                function myFunction1() {
+                var dots = document.getElementById("dots1");
+                var moreText = document.getElementById("more1");
+                var btnText = document.getElementById("myBtn1");
+
+                if (dots1.style.display === "none") {
+                    dots1.style.display = "inline";
+                    btnText.innerHTML = "Ấn vào đây để đăng nhập"; 
+                    moreText.style.display = "none";
+                } 
+                else {
+                    dots1.style.display = "none";
+                    btnText.innerHTML = "Ấn vào đây để đăng nhập"; 
+                    moreText.style.display = "inline";
                 }
-                function closeForm2() {
-                    document.getElementById("myForm2").style.display = "none";
                 }
             </script>
         </div>
-        <article>
-            <section>
-                <div id="payment">
-                    <h2>THÔNG TIN THANH TOÁN</h2>
-                    <form>
-                        <div id="ho">
-                            <label for="ho">Họ &#42;</label>
-                            <input type="text" name="ho" id="txtho">
-                        </div>
-                        <div id="ten">
-                            <label for="teb">Tên &#42;</label>
-                            <input type="text" name="teb" id="txtten">
-                        </div>
-                        <div id="quocgia">
-                            <label for="quocgia">Quốc Gia &#42;</label>
-                            <select name="quocgia" id="quocgia">
-                                <option value="Việt Nam">Việt Nam</option>
-                                <option value="Việt Nam">Thái Lan</option>
-                                <option value="Việt Nam">Campuchia</option>
-                                <option value="Việt Nam">Bru-nây</option>
-                                <option value="Việt Nam">Singapore</option>
-                                <option value="Việt Nam">Indonesia</option>
-                                <option value="Việt Nam">Malaysia</option>
-                                <option value="Việt Nam">Philippine</option>
-                            </select>
-                        </div>
-                        <div id="diachi">
-                            <label for="diachi">Địa chỉ &#42;</label>
-                            <input type="text" name="diachi" id="diachi">
-                        </div>
-                        
-                        <div id="tinh_tp">
-                            <label for="tinh_tp">Tỉnh/Thành phố &#42;</label>
-                            <input type="text" name="tinh_tp" id="tinh_tp">
-                        </div>
-                        <div id="sdt_ll">
-                            <label for="sdtll">Số điện thoại liên lạc &#42;</label>
-                            <input type="tel" name="sdt_ll" id="sdt_1">
-                        </div>
-                        <div id="checkkk">
-                            <input type="checkbox" name="checkbox" id="checked_1">Tạo tài khoản mới?<br><br>
-                            <input type="checkbox" name="checkbox" id="checked_2">Giao hàng tới địa chỉ khác
-                        </div>
-                        <div id="loi_nhan">
-                            <label for="textarea">Lời nhắn cho shop (tùy chọn)</label>
-                            <textarea name="loi_nhan" cols="78.5px" rows="10"></textarea>
-                        </div>
-                    </form>
-                </div>
-            </section>
-            <aside>
-                <div id="bill">
-                    <h2>ĐƠN HÀNG CỦA BẠN</h2>
-                    <div id="tieu_de">
-                        <p>Sản phẩm</p>
-                        <span>Tạm tính</span>
+        <div id="body2">
+            <article>
+                <section>
+                    <div id="payment">
+                        <h2>THÔNG TIN THANH TOÁN</h2>
+                        <form>
+                            <div id="ho">
+                                <label for="ho">Họ &#42;</label>
+                                <input type="text" name="ho" id="txtho">
+                            </div>
+                            <div id="ten">
+                                <label for="teb">Tên &#42;</label>
+                                <input type="text" name="teb" id="txtten">
+                            </div>
+                            <div id="quocgia">
+                                <label for="quocgia">Quốc Gia &#42;</label>
+                                <select name="quocgia" id="quocgia">
+                                    <option value="Việt Nam">Việt Nam</option>
+                                    <option value="Việt Nam">Thái Lan</option>
+                                    <option value="Việt Nam">Campuchia</option>
+                                    <option value="Việt Nam">Bru-nây</option>
+                                    <option value="Việt Nam">Singapore</option>
+                                    <option value="Việt Nam">Indonesia</option>
+                                    <option value="Việt Nam">Malaysia</option>
+                                    <option value="Việt Nam">Philippine</option>
+                                </select>
+                            </div>
+                            <div id="diachi">
+                                <label for="diachi">Địa chỉ &#42;</label>
+                                <input type="text" name="diachi" id="diachi">
+                            </div>
+                            
+                            <div id="tinh_tp">
+                                <label for="tinh_tp">Tỉnh/Thành phố &#42;</label>
+                                <input type="text" name="tinh_tp" id="tinh_tp">
+                            </div>
+                            <div id="sdt_ll">
+                                <label for="sdtll">Số điện thoại liên lạc &#42;</label>
+                                <input type="tel" name="sdt_ll" id="sdt_1">
+                            </div>
+                            <div id="checkkk">
+                                <input type="checkbox" name="checkbox" id="checked_1">Tạo tài khoản mới?<br><br>
+                                <input type="checkbox" name="checkbox" id="checked_2">Giao hàng tới địa chỉ khác
+                            </div>
+                            <div id="loi_nhan">
+                                <label for="textarea">Lời nhắn cho shop (tùy chọn)</label>
+                                <textarea name="loi_nhan" cols="78.5px" rows="10"></textarea>
+                            </div>
+                        </form>
                     </div>
-                    <div id="san_pham_abc">
-                        <div id="tensp1">
-                            <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
+                </section>
+                <aside>
+                    <div id="bill">
+                        <h2>ĐƠN HÀNG CỦA BẠN</h2>
+                        <div id="tieu_de">
+                            <p>Sản phẩm</p>
+                            <span>Tạm tính</span>
                         </div>
-                        <div id="giasp1">
-                            <p>320.000 <u>đ</u></p>
+                        <div id="san_pham_abc">
+                            <div id="tensp1">
+                                <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
+                            </div>
+                            <div id="giasp1">
+                                <p>320.000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="san_pham_abc">
+                            <div id="tensp1">
+                                <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
+                            </div>
+                            <div id="giasp1">
+                                <p>320.000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="san_pham_abc">
+                            <div id="tensp1">
+                                <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
+                            </div>
+                            <div id="giasp1">
+                                <p>320.000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="san_pham_abc">
+                            <div id="tensp1">
+                                <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
+                            </div>
+                            <div id="giasp1">
+                                <p>320.000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="san_pham_abc2">
+                            <div id="tensp2">
+                                <p>Tạm Tính</p>
+                            </div>
+                            <div id="giasp2">
+                                <p>1.120.000<u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="san_pham_abc2">
+                            <div id="tensp2">
+                                <p>Giao hàng</p>
+                            </div>
+                            <div id="giasp2">
+                                <p>35.000<u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="san_pham_abc2">
+                            <div id="tensp2">
+                                <p>Tổng</p>
+                            </div>
+                            <div id="giasp2">
+                                <p>1.155.000<u>đ</u></p>
+                            </div>
+                        </div>
+                        <div id="zzzz">
+                            <p>Kiểm tra thanh toán</p>
+                            <span>Lưu ý : Giá ship với các đơn nội thành hà nội sẽ có nhân viên gọi điện báo giá với bạn, còn các đơn COD ngoại thành đều đồng giá ship 40.000 vnđ</span>
+                            <input type="submit" name="submit" value="Đặt hàng" id="okela">
                         </div>
                     </div>
-                    <div id="san_pham_abc">
-                        <div id="tensp1">
-                            <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
-                        </div>
-                        <div id="giasp1">
-                            <p>320.000 <u>đ</u></p>
-                        </div>
-                    </div>
-                    <div id="san_pham_abc">
-                        <div id="tensp1">
-                            <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
-                        </div>
-                        <div id="giasp1">
-                            <p>320.000 <u>đ</u></p>
-                        </div>
-                    </div>
-                    <div id="san_pham_abc">
-                        <div id="tensp1">
-                            <p>ĐỒNG HỒ GƯƠNG KIM LOA BLUETOOTH HỒNG <b>x1</b></p>
-                        </div>
-                        <div id="giasp1">
-                            <p>320.000 <u>đ</u></p>
-                        </div>
-                    </div>
-                    <div id="san_pham_abc2">
-                        <div id="tensp2">
-                            <p>Tạm Tính</p>
-                        </div>
-                        <div id="giasp2">
-                            <p>1.120.000<u>đ</u></p>
-                        </div>
-                    </div>
-                    <div id="san_pham_abc2">
-                        <div id="tensp2">
-                            <p>Giao hàng</p>
-                        </div>
-                        <div id="giasp2">
-                            <p>35.000<u>đ</u></p>
-                        </div>
-                    </div>
-                    <div id="san_pham_abc2">
-                        <div id="tensp2">
-                            <p>Tổng</p>
-                        </div>
-                        <div id="giasp2">
-                            <p>1.155.000<u>đ</u></p>
-                        </div>
-                    </div>
-                    <div id="zzzz">
-                        <p>Kiểm tra thanh toán</p>
-                        <span>Lưu ý : Giá ship với các đơn nội thành hà nội sẽ có nhân viên gọi điện báo giá với bạn, còn các đơn COD ngoại thành đều đồng giá ship 40.000 vnđ</span>
-                        <input type="submit" name="submit" value="Đặt hàng" id="okela">
-                    </div>
-                </div>
-            </aside>
-        </article>
-    </div>
+                </aside>
+            </article>
+        </div>
     <div>
         <button onclick="myFunction()" id="btt" title="Back to Top"><i class="fa-solid fa-angle-up"></i></button>
         <script>
