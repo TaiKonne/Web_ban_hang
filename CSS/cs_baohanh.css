@@ -288,7 +288,8 @@
     color: white;
   }
   nav ul li{
-    float: left;
+    float: right;
+    margin-right: 12px;
     padding:0px 10px 0px 5px;
   }
   nav ul li a{
@@ -509,3 +510,120 @@ footer{
     background-color:#d24141;
   }
   
+  /* Menu-vertical-left start*/
+.menu-vertical-left{
+  /* position: relative; */
+  width: 200px; 
+  text-align: left;
+  margin: auto;
+  border: 2px solid white;
+  border-top-right-radius:5px;   
+  border-bottom-right-radius:5px;
+  float: left;
+}
+.menu-vertical-left ul {
+  margin:0;
+  padding:0;
+  position: relative;
+  list-style: none;
+}
+.menu-vertical-left ul li{
+  position: relative;
+  font-size: 13px;
+}
+.menu-vertical-left ul li a{
+  display: block;
+  position: relative;
+  background:white;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-vertical-left ul li a:link , .menu-vertical-left ul li a:visited{
+  color: black;
+  border-bottom: 1px solid gray;
+}
+.menu-vertical-left ul li:hover>a{
+  background:#3d8dc9;
+  color:red;
+  border-radius: 5px;
+}
+.menu-vertical-left ul li ul{
+  position: absolute;
+  left: -5000px;
+  top: 0;
+  width: 300px;
+  visibility: hidden;
+  box-shadow: 2px 2px 5px gray; 
+}
+.menu-vertical-left ul li:hover>ul{
+  visibility: visible;
+  left: 100%;
+}
+.menu-vertical-left ul li ul li{
+  display:list-item;
+  float: none;
+}
+.menu-vertical-left ul li ul li ul{
+  top: 1;
+  left: 100%;
+}
+.menu-vertical-left ul ul li:hover>a{
+  background: white;
+  border-radius: 5px;
+}
+.menu-vertical-left ul ul li:hover>ul{
+  left: 100%;
+}
+.menu-vertical-left ul li ul li a{
+  padding: 10px;
+  margin: 0;
+  background: white;
+  border-right: none;
+  border-top-width: 0;
+}
+.menu-vertical-left ul li>a{
+  padding-right: 20px;
+}
+.menu-vertical-left ul li>a:only-child{
+  padding-right: 10px;
+}
+.menu-vertical-left ul li>a::after{
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-left-color:white;
+  top: 40%;
+  right: 8px;
+}
+.menu-vertical-left ul li>a:only-child::after{
+  display: none;
+}
+/* menu-vertical-left end */
+div.hover_a{
+  float: left;
+  margin-left: -850px;
+  margin-top: 30px;
+}
+.button_a {
+  background-color: #29a07e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+
+.hover_a {
+  position: relative;
+  display: inline-block;
+}
+
+.content_a {
+  display: none;
+  position: absolute;
+  background-color:white;
+  width: 200px;
+}
+.hover_a:hover .content_a {display: block;}
+.hover_a:hover .button_a {background-color: #29a07e;}
