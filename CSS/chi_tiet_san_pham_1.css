@@ -363,7 +363,7 @@ section{
 #top_right{
   border: 2px solid #29A07E;
   width: 274px;
-  height: 708px;
+  margin-left: 30px;
 }
 
 #top_mid{
@@ -371,7 +371,11 @@ section{
   height: 708px;
   float: left;
 }
-
+div#abc{ 
+  width: auto;
+  height: 700px;
+  margin: 0px 15px;
+}
 #top_mid #ten_sp{
   height: 50px;
 }
