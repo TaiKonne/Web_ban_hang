@@ -677,98 +677,98 @@ background-color:#d24141;
 aside#left div.menu-vertical-left ul li img{
 vertical-align: middle;
 }
-              /* slide show sản phẩm */
-              /* Position the image container (needed to position the left and right arrows) */
-              .container_5 {
-                position: relative;
-                width: 380px;
-              }
+ /* slide show sản phẩm */
+/* Position the image container (needed to position the left and right arrows) */
+.container_5 {
+position: relative;
+width: 380px;
+}
               
-              /* Hide the images by default */
-              .mySlides_5 {
-                display: none;
-              }
+/* Hide the images by default */
+.mySlides_5 {
+  display: none;
+}
               
-              /* Add a pointer when hovering over the thumbnail images */
-              .cursor_5 {
-                cursor: pointer;
-              }
+/* Add a pointer when hovering over the thumbnail images */
+.cursor_5 {
+ cursor: pointer;
+}
               
-              /* Next & previous buttons */
-              .prev_5,
-              .next_5 {
-                cursor: pointer;
-                position: absolute;
-                top: 40%;
-                width: auto;
-                padding: 16px;
-                margin-top: -50px;
-                color: red;
-                font-weight: bold;
-                font-size: 20px;
-                border-radius: 0 3px 3px 0;
-                user-select: none;
-                -webkit-user-select: none;
-              }
+/* Next & previous buttons */
+.prev_5,
+.next_5 {
+  cursor: pointer;
+ position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
               
-              /* Position the "next button" to the right */
-              .next_5 {
-                right: 0;
-                border-radius: 3px 0 0 3px;
-              }
+/* Position the "next button" to the right */
+.next_5 {
+ right: 0;
+  border-radius: 3px 0 0 3px;
+}
+                 
+ /* On hover, add a black background color with a little bit see-through */
+.prev_5:hover,
+.next_5:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+}
               
-              /* On hover, add a black background color with a little bit see-through */
-              .prev_5:hover,
-              .next_5:hover {
-                background-color: rgba(0, 0, 0, 0.8);
-              }
+/* Number text (1/3 etc) */
+.numbertext_5 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
               
-              /* Number text (1/3 etc) */
-              .numbertext_5 {
-                color: #f2f2f2;
-                font-size: 12px;
-                padding: 8px 12px;
-                position: absolute;
-                top: 0;
-              }
+/* Container for image text */
+.caption-container_5 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
               
-              /* Container for image text */
-              .caption-container_5 {
-                text-align: center;
-                background-color: #222;
-                padding: 2px 16px;
-                color: white;
-              }
+.row_5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
               
-              .row_5:after {
-                content: "";
-                display: table;
-                clear: both;
-              }
-              
-              .row_5{
-                width: 413px;
-              }
+.row_5{
+  width: 413px;
+}
             
-              /* Six columns side by side */
-              .column_5 {
-                float: left;
-                width: 85px;
-                height: 90px;
-                margin: 4px;
-              }
+  /* Six columns side by side */
+.column_5 {
+  float: left;
+  width: 85px;
+  height: 90px;
+  margin: 4px;
+   }
               
-              /* Add a transparency effect for thumnbail images */
-              .demo_5 {
-                opacity: 0.6;
-              }
+ /* Add a transparency effect for thumnbail images */
+.demo_5 {
+  opacity: 0.6;
+ }
               
-              #row_5 img{
-                width: 90px;
-                height: 80px;
-                margin: 4px;
-              }
+ #row_5 img{
+  width: 90px;
+  height: 80px;
+  margin: 4px;
+}
             
-              .active_5, .demo_5:hover {
-                opacity: 1;
-              }
+.active_5, .demo_5:hover {
+  opacity: 1;
+}
