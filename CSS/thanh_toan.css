@@ -287,7 +287,7 @@
   }
   nav ul li{
     float: right;
-    margin-right: 30px;
+    margin-right: 12px;
     padding:0px 10px 0px 5px;
   }
   nav ul li a{
@@ -730,3 +730,4 @@ div.hover_a{
   width: 200px;
 }
 .hover_a:hover .content_a {display: block;}
+.hover_a:hover .button_a {background-color: #29a07e;}
