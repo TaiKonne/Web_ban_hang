@@ -11,7 +11,6 @@ body{
 header{
   width: auto;
   height: 90px;
-  border: solid 3px;
   margin: 0px 150px 0px 150px;
 }
 
@@ -20,7 +19,7 @@ div#ib{
   height: 10px;
   margin:0px;
   padding-bottom: 40px;
-  border: solid 1px;
+  background-color: #29a07e;
 }
 div#ib ul{
   float: left;
@@ -91,6 +90,7 @@ div #logo{
 }
 #sdt b{
   font-size: 30px;
+  color: #29A07E;
 }
 #gio_hang{
   padding: 30px 0px 30px 0px;
@@ -100,6 +100,9 @@ div #logo{
   width: 120px;
   height: 25px;
   font-weight: bold;
+  border-radius: 10px;
+  background-color: #29A07E;
+  color: white;
 }
 /* Login form star */
 input[type=text], input[type=password] {
@@ -199,15 +202,16 @@ nav{
   width: auto;
   height: 60px;
   padding: 10px 0;
-  border: solid 3px;
   margin: 0px 150px 0px 150px;
 }
 nav ul{
   list-style: none;
-  border: 1px solid red;
+background-color: #29A07E;
   width: auto;
   height: 40px;
   padding:20px 15px 0px 15px;
+  border-radius: 10px;
+  color: white;
 }
 nav ul li{
   float: left;
@@ -217,6 +221,7 @@ nav ul li a{
   font-size: 16px;
   text-decoration: none;
   font-weight: bold;
+  color: white;
 }
 div#icon_menu{
   float: left;
@@ -346,7 +351,6 @@ border: 1px solid #d24141;
 
 section{
   width: auto;
-  border: solid 1px purple;
   display: table-cell;
 }
 
@@ -366,7 +370,6 @@ section{
   width: 420px;
   height: 708px;
   float: left;
-  border: solid 1px;
 }
 
 #top_mid #ten_sp{
@@ -504,12 +507,10 @@ section{
 
 div#body{
   margin: 0px 150px 0px 150px;
-  border: solid 3px red;
 }
 
 article{
   width: auto;
-  border:red solid 1px;
   margin: 0px 150px;
   display: table-row;
 }
@@ -520,7 +521,6 @@ padding: 10px 0;
 div#title1 span{
 margin: 10px 5px;
 padding: 10px 176px 10px 0;
-border-bottom: 1px solid grey;
 font-weight:  bold;
 }
 div#listtt img{

@@ -10,7 +10,6 @@
   header{
     width: auto;
     height: 90px;
-    border: solid 3px;
     margin: 0px 150px 0px 150px;
   }
   div#body{
@@ -22,7 +21,7 @@
     height: 10px;
     margin:0px;
     padding-bottom: 40px;
-    border: solid 1px;
+    background-color: #29a07e;
   }
   div#ib ul{
     float: left;
@@ -93,6 +92,7 @@
   }
   #sdt b{
     font-size: 30px;
+    color: #29A07E;
   }
   .dropbtn {
     background-color: #04AA6D;
@@ -101,6 +101,7 @@
     font-size: 16px;
     border: none;
     margin: 35px 0 0 92px;
+    border-radius: 10px;
   }
   .dropdown {
     position: relative;
@@ -273,15 +274,16 @@
     width: auto;
     height: 60px;
     padding: 10px 0;
-    border: solid 3px;
     margin: 0px 150px 0px 150px;
   }
   nav ul{
     list-style: none;
-    border: 1px solid red;
+  background-color: #29A07E;
     width: auto;
     height: 40px;
     padding:20px 15px 0px 15px;
+    border-radius: 10px;
+    color: white;
   }
   nav ul li{
     float: left;
@@ -291,6 +293,7 @@
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
+    color: white;
   }
   div#icon_menu{
     float: left;
