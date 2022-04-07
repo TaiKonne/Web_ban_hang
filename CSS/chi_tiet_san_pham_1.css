@@ -558,7 +558,7 @@ font-size: 17px;
 
 /* footer start */
 footer{
-margin-top: 400px;
+margin-top: 100px;
 width: auto;
 height:370px;
 background-color: #29A07E;
@@ -775,3 +775,4 @@ width: 380px;
 .active_5, .demo_5:hover {
   opacity: 1;
 }
+
