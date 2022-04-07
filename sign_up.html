@@ -263,7 +263,7 @@
     </div>
     <div id="contact_form" >
         <p>Điền đầy đủ thông tin theo định dạng. Chúng tôi sẽ gửi mã xác nhận tài khoản qua mail của bạn. </p>
-        <form  onsubmit="return kiemtrathongtin()">
+        <form onsubmit="return kiemtrathongtin()" action="verity_account.html">
             <label for="username">Tên đăng nhập &#42;</label><br>
             <input type="text" name="username" id="user" placeholder="Tên đăng nhập bao gồm chữ và số"><br>
             <label for="password">Mật khẩu &#42;</label><br>
@@ -271,9 +271,9 @@
             <label for="nlpassword">Nhập lại mật khẩu &#42;</label><br>
             <input type="password" name="nlpassword" id="nlpassword" placeholder="Nhập lại mật khẩu"><br>
             <label for="telephone">Số điện thoại liên lạc &#42;</label><br>
-            <input type="tel" pattern="[0-9] {10}" placeholder="VD: 0123456789" name="telephone" id="sdtll"><br>
+            <input type="text" placeholder="VD: 0123456789" name="telephone" id="sdtll"><br>
             <label for="email">Địa chỉ email &#42;</label><br>
-            <input type="email" name="email" id="email" placeholder="VD: abc123@xyz.com"><br>
+            <input type="text" name="email" id="email" placeholder="VD: abc123@xyz.com"><br>
             <label for="diachi">Địa chỉ &#42;</label><br>
             <input type="text" name="diachi" id="diachi_a" placeholder="số nhà/đường/khu/tổ/phường/thành phố/tỉnh"><br>
             <input type="submit" value="Đăng Ký Tài Khoản" id="submit">
@@ -315,44 +315,47 @@
                     return false;
                 }
             }
-            // var sdt=document.getElementById("sdtll");
-            // if(sdt.value=="")
-            // {
-            //     alert("Hãy nhập số điện thoại !");
-            //     sdt.focus();
-            //     return false;
-            // }
-            // else   
-            //     if(isNaN(sdt.value)==true)
-            //     {
-            //         alert("Số điện thoại phải là số!");
-            //         sdt.focus();
-            //         return false;
-            //     }
-        //     var email=document.getElementById("email");
-        //     re=/\w+@\w+\.\w+/;
-        //     if (email.value==""){
-        //         alert("Bạn chưa nhập Email.") ;
-        //         email.focus();
-        //         return false;
-        //     }
-        //     else
-        //         if(re.test(email.value)==false)
-        //         {
-        //             alert("Email không đúng định dạng!");
-        //             email.focus();
-        //             return false;
-        //         }
-        //     var diachi=document.getElementById("diachi");
-        //     if(diachi.value=="")
-        //     {
-        //         alert("Hãy nhập địa chỉ.");
-        //         diachi.focus();
-        //         return false;
-        //     }
-        //     alert("Đăng kí thành công!");
-        //     return true;
-        // }
+            var sdt=document.getElementById("sdtll");
+            if(sdt.value=="")
+            {
+                alert("Hãy nhập số điện thoại !");
+                sdt.focus();
+                return false;
+            }
+            else   
+                if(isNaN(sdt.value)==true)
+                {
+                    alert("Số điện thoại phải là số!");
+                    sdt.value="";
+                    sdt.focus();
+                    return false;
+                }
+
+            var email=document.getElementById("email");
+            re=/\w+@\w+\.\w+/;
+            if (email.value==""){
+                alert("Bạn chưa nhập Email.") ;
+                email.focus();
+                return false;
+            }
+            else
+                if(re.test(email.value)==false)
+                {
+                    alert("Email không đúng định dạng!");
+                    email.focus();
+                    return false;
+                }
+
+            var diachi=document.getElementById("diachi_a");
+            if(diachi.value=="")
+            {
+                alert("Hãy nhập địa chỉ.");
+                diachi.focus();
+                return false;
+            }
+            alert("Nhập mã xác thực để hoàn thành đăng kí");
+            return true;
+        }
     </script>
     <footer>
         <div id="body_footer">
