@@ -6,13 +6,13 @@
   }
   /* Slideshow container */
      img{
-      width: 200px;
+      width: 400px;
   }
   .slideshow-container {
-    width: 900px;
+    width: 1225px;
     position: relative;
     margin: auto;
-    height: 300px;
+    height: 350px;
     border: solid 1px;
   }
   /* Ẩn các slider */
