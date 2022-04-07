@@ -309,10 +309,10 @@ font-size: 17px;
 font-weight: bold;
 }
 div#form_phanhoi{
-width: 780px;
+width: 810px;
 margin-top:30px;
 background-color: #f2f2f2;
-border: 1px solid blueviolet;
+border: 2px solid #29a07e;
 float: left;
 }
 div#form_phanhoi p{
@@ -397,8 +397,7 @@ div#abc{
 }
 
 #chi_tiet{
-  border: solid 1px;
-  width: 390px;
+  width: 420px;
   float: left;
   margin-top: 18px;
 }
