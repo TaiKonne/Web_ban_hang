@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/forgot_psw.css" type="text/css">
-    <link rel="icon" type="image/x-icon" href="IMG/favicon.ico">
+    <link rel="stylesheet" href="CSS/news.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="/IMG/favicon.ico">
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico">  Favicon : hiển thị logo trang web-->
     <title>LẮC ĐẦU</title>
 </head>
 <body>
@@ -15,9 +16,43 @@
             <ul>
                 <li><a href="https://vi-vn.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
                 <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
-                <li><a href="https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F"><img src="IMG/icon_shopee.png" id="icon_shop"> Shopee</a></li>
+                <li><a href="https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F"><i class="fa-brands fa-shopify"></i> Shopee</a></li>
                 <li><a href="https://www.instagram.com/accounts/login/?"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
             </ul>
+            <div id="login">
+                <button onclick="document.getElementById('id01').style.display='block'"><i class="fa-solid fa-user"></i></button>
+                <div id="id01" class="modal">
+                  <form class="modal-content animate" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </div>
+                    <div class="container">
+                        <h2>Đăng nhập</h2>
+                      <label for="uname">Tên tài khoảng hoặc địa chỉ email &#42;</label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw">Mật khẩu &#42;</label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember">Ghi nhớ mật khẩu
+                      </label><br>
+                      <button type="submit" class="cancelbtn">Đăng nhập</button>
+                      <div><a href="forgot_psw.html">Quên mật khẩu ?</a></div>
+                    </div>
+                  </form>
+                </div>
+                <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>
+            </div>
         </div>
         <header>
             <div id="logo">
@@ -248,76 +283,185 @@
              </div>
             </div>
          </div>
-             <nav>
-                 <ul>
-                     <li><a href="contact_form.html">LIÊN HỆ</a></li>
-                     <li><a href="cs_vanchuyen.html">CHÍNH SÁCH VẬN CHUYỂN</a></li>
-                     <li><a href="cs_baohanh.html">CHÍNH SÁCH BẢO HÀNH</a></li>
-                     <li><a href="">HƯỚNG DẪN MUA HÀNG</a></li>
-                    <li><a href="news.html">TIN TỨC</a></li>
-                 </ul>
-             </nav>
-    </div>
-    <div id="my_acc">
-        <p>MY ACCOUNT</p>
-    </div>
-    <div id="fpsw">
-        <p>Kiểm tra mail của bạn để nhận mã xác thực. Tài khoản sẽ được kích hoạt sau khi được xác thực.</p>
-        <form onsubmit="return kiemtrathongtin12()" action="web_ban_hanh.html">
-            <label for="user_or_email">Mã xác thực &#42;</label><br>
-            <input type="text" name="user_or_email" id="user_or_email"><br>
-            <input type="submit" value="Xác nhận" id="submit">
-        </form>
-    </div>
-    <script>
-        function kiemtrathongtin12()
-        {
-            var verity=document.getElementById("user_or_email");
-            if(verity.value=="")
-            {
-                alert("Không được để trống!");
-                verity.focus();
-                return false;
-            }
-            alert("Bạn đã hoàn tất thủ tục đăng kí tài khoản <3");
-            return true;
-        }
-    </script>
-    <footer>
-        <div id="body_footer">
-            <div id="in4_footer">
-                <div id="address">
-                    <p>
-                        Địa chỉ:  Số 86 đường Dịch Vọng Hậu, phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội
-                    </p>
-                    <p>
-                        Số điện thoại: 0855708546 Địa chỉ email: taichuotchuoi@gmail.com
-                    </p>
-                </div>
-                <div id="footer_icon">
-                    <img src="IMG/icon_facebook_footer.png">
-                    <img src="IMG/icon_tiktok_footer.png">
-                    <img src="IMG/icon_youtube_footer.png">
-                    <img src="IMG/icon_ins_footer.png">
-                    <img src="IMG/icon_mail_footer.png">
-                </div>
+            <nav>
+                <ul>
+                    <li><a href="contact_form.html">LIÊN HỆ</a></li>
+                    <li><a href="cs_vanchuyen.html">CHÍNH SÁCH VẬN CHUYỂN</a></li>
+                    <li><a href="cs_baohanh.html">CHÍNH SÁCH BẢO HÀNH</a></li>
+                    <li><a href="">HƯỚNG DẪN MUA HÀNG</a></li>
+                   <li><a href="news.html">TIN TỨC</a></li>
+                </ul>
+            </nav>
+        <div id="body">
+            <div id="title">
+                <p>CATEGORY ARCHIVES: TIN TỨC</p>
             </div>
-            <div id="map_page">
-                <div id="map">
-                    <p>BẢN ĐỒ</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.2007787180937!2d106.70147234741187!3d11.10510237564906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cf1120d035ab%3A0x7b091664c2f724f0!2zQ8OgZmVUw6BpIEzhu5lj!5e0!3m2!1svi!2s!4v1648608589744!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div id="page">
-                    <P>FACEBOOK</P>
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacdaustore&tabs=timeline&width=550&height=262&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                </div>
-            </div>
+            <article>
+                <section>
+                    <a href="Newpaper_TinTuc/newpaper_1.html">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_1.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="Newpaper_TinTuc/newpaper_2.html">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_2.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_3.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="web_ban_hanh.html">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_4.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_5.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_6.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_7.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_8.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                   <a href="#">
+                    <div id="tintuc">
+                        <img src="IMG/tin_tuc_9.jpg">
+                        <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                        <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                    </div>
+                   </a>
+                    <a href="#">
+                        <div id="tintuc">
+                            <img src="IMG/tin_tuc_10.jpg">
+                            <span>HƯỚNG DẪN VỆ SINH BÀN PHÍM CƠ</span>
+                            <a id="a2" href="#">Vệ sinh bàn phím cơ như thế nào là đúng cách ? Một trong những người bạn[...]</a>
+                        </div>
+                    </a>
+                </section>
+                <aside id="top_right">
+                    <div id="title1">
+                        <span>SẢN PHẨM</span>
+                    </div>
+                        <div id="listtt">
+                            <ul>
+                                <li>
+                                    <img src="IMG/tintuc_right_1.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="IMG/tintuc_right_2.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="IMG/tintuc_right_3.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="IMG/tintuc_right_4.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="IMG/tintuc_right_5.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                    
+                            </ul>
+                        </div>
+                    
+                </aside>
+            </article>
         </div>
-    </footer>
-    <div id="fast_ib">
+        <div>
+            <button onclick="myFunction()" id="btt" title="Back to Top"><i class="fa-solid fa-angle-up"></i></button>
+            <script>
+                var backtop=document.getElementById("btt");
+                window.onscroll= function(){scrollFunction()};
+                function scrollFunction()
+                {
+                    if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
+                        backtop.style.display="block";
+                    else
+                        backtop.style.display="none";
+                }
+                function myFunction()
+                {
+                    document.body.scrollTop=0;
+                    document.documentElement.scrollTop=0;
+                }
+            </script>
+        </div>
+        <footer>
+            <div id="body_footer">
+                <div id="in4_footer">
+                    <div id="address">
+                        <p>
+                            Địa chỉ:  Số 87 đường Dịch Vọng Hậu, phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội
+                        </p>
+                        <p>
+                            Số điện thoại: 0855708546 Địa chỉ email: taichuotchuoi@gmail.com
+                        </p>
+                    </div>
+                    <div id="footer_icon">
+                        <img src="../IMG/icon_facebook_footer.png">
+                        <img src="../IMG/icon_tiktok_footer.png">
+                        <img src="../IMG/icon_youtube_footer.png">
+                        <img src="../IMG/icon_ins_footer.png">
+                        <img src="../IMG/icon_mail_footer.png">
+                    </div>
+                </div>
+                <div id="map_page">
+                    <div id="map">
+                        <p>BẢN ĐỒ</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.2007787180937!2d106.70147234741187!3d11.10510237564906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cf1120d035ab%3A0x7b091664c2f724f0!2zQ8OgZmVUw6BpIEzhu5lj!5e0!3m2!1svi!2s!4v1648608589744!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div id="page">
+                        <P>FACEBOOK</P>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacdaustore&tabs=timeline&width=550&height=262&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="fast_ib">
         <div id="zalo_chat">Chat Zalo</div>
         <div id="facebook_chat">Chat facebook</div>
         <div id="hotline">hotline:<b>0349296461</b></div>
+    </div>
     </div>
 </body>
 </html>
