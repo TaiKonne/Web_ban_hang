@@ -14,7 +14,7 @@ header{
 div#body{
   margin: 0 150px 0 150px;
   width: auto;
-  height: 2000px;
+  height: 1100px;
 }
 div#ib{
   width: auto;
@@ -323,7 +323,6 @@ article{
 section{
   width: 865px;
   display:table-cell;
-  border: solid 1px red;
 }
 div#title{
   width: auto;
@@ -411,8 +410,7 @@ font-size: 17px;
 
 /* footer start */
 footer{
-position: relative;
-margin-top: 70px;
+margin-top: 10px;
 width: auto;
 height:370px;
 background-color: #29A07E;
