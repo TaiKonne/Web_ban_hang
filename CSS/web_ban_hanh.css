@@ -105,11 +105,7 @@ div #logo{
 
 /* Gio hang start */
 .dropbtn {
-<<<<<<< HEAD
   background-color:#29a07e;
-=======
-  background-color: #29a07e;
->>>>>>> 33597ca04c608fe2e009728cb83bb1341ad97bfa
   color: white;
   padding: 5px;
   font-size: 16px;
@@ -149,6 +145,7 @@ div#giohang{
   overflow: scroll;
   padding: 20px 10px;
 }
+
 div#sp{
  width: 300px;
  float: left;

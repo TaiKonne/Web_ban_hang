@@ -106,7 +106,6 @@ div #logo{
   margin: 35px 0 0 92px;
   border-radius: 10px;
 }
-<<<<<<< HEAD
 .dropdown {
   position: relative;
   display: inline-block;
@@ -178,16 +177,6 @@ div#thanh_toan p{
   width: 250px;
   text-align: center;
   background-color: #29a07e;
-=======
-#gio_hang button{
-    width: 120px;
-    height: 25px;
-    font-weight: bold;
-    border-radius: 10px;
-    background-color: #29a07e;
-    border: #29A07E;
-    color: white;
->>>>>>> 33597ca04c608fe2e009728cb83bb1341ad97bfa
 }
 nav{
     width: auto;
