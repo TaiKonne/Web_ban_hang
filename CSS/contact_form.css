@@ -105,8 +105,9 @@ div #logo{
     height: 25px;
     font-weight: bold;
     border-radius: 10px;
-    background-color: #29A07E;
+    background-color: #29a07e;
     border: #29A07E;
+    color: white;
 }
 nav{
     width: auto;
