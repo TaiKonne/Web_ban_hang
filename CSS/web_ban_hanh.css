@@ -543,6 +543,21 @@ div#sp_hot_1 span#bth_insert_1{
   background-color: #29a07e;
   border-radius: 10px;
 }
+div#sp_hot_1 span#bth_insert_1:hover{
+  background-color: #d24141;
+}
+diV#sp_hot_nor span#bth_insert_nor:hover{
+  background-color: #d24141;
+}
+diV#sp_hot_nor2 span#bth_insert_nor2:hover{
+  background-color: #d24141;
+}
+diV#sp_hot_nor3 span#bth_insert_nor3:hover{
+  background-color: #d24141;
+}
+diV#sp_hot_nor4 span#bth_insert_nor4:hover{
+  background-color: #d24141;
+}
 div#sp_hot_nor img{
   float: left;
   width: 100px;
@@ -841,8 +856,11 @@ div#title_product{
 #danh_muc ul li a{
   text-decoration: none;
   color: #29A07E;
+  color: black;
 }
-
+#danh_muc ul li a:hover{
+  color: blue;
+}
 #danh_muc ul li{
   list-style: none;
   float: left;
@@ -925,6 +943,9 @@ div#title_product{
   color: white;
   text-align: center;
   font-size: 13px;
+}
+#button_buy:hover{
+  background-color: #d24141;
 }
 
     /* slideshow footer */
