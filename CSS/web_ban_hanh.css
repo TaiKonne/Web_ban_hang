@@ -54,9 +54,15 @@ div#ib div#login i{
 div#ib div#login:hover{
   background-color:#d24141;
 }
+div#login div{
+  color: black;
+}
 div#login div a{
   text-decoration: none;
   color: blue;
+}
+div#login div a:hover{
+  color: red;
 }
 div #logo{
   width: 120px;
