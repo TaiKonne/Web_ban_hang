@@ -11,7 +11,6 @@ body{
 header{
     width: auto;
     height: 90px;
-    border: solid 3px;
     margin: 0px 150px 0px 150px;
 }
 div#ib{
@@ -19,7 +18,7 @@ div#ib{
     height: 10px;
     margin:0px;
     padding-bottom: 40px;
-    border: solid 1px;
+    background-color: #29a07e;
 }
 div#ib ul{
     float: left;
@@ -77,6 +76,7 @@ div #logo{
     height: 33px;
     width: 58px;
     margin: 0px 0px 0px 10px;
+    border: none;
 }
                                         /* ======================== cần được sửa icon shopee */
 #icon_shop{     
@@ -87,6 +87,7 @@ div #logo{
     width: 190px;
     float: left;
     padding: 30px 0px 30px 30px;
+    color: #29A07E;
 }
 #sdt b{
     font-size: 30px;
@@ -99,6 +100,10 @@ div #logo{
     width: 120px;
     height: 25px;
     font-weight: bold;
+    border-radius: 10px;
+    background-color: #29A07E;
+    color: white;
+    border: solid 1px;
 }
 nav{
     width: auto;
