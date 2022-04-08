@@ -315,13 +315,15 @@ div#body{
 }
 article{
   width: auto;
+  border: solid pink;
   margin: 0;
   padding: 0;
   display: table-row;
 }
 section{
-  width: auto;
+  width: 865px;
   display:table-cell;
+  border: solid 1px red;
 }
 div#title{
   width: auto;
@@ -366,7 +368,7 @@ aside#top_right{
 border: 2px solid #29A07E;
 float: left;
 position: absolute;
-margin:10px 10px 0 20px;
+margin:10px 10px 0 0;
 width: 274px;
 }
 div#title1{
@@ -650,6 +652,7 @@ width: 200px;
 }
 .hover_a:hover .content_a {display: block;}
 .hover_a:hover .button_a {background-color: #29a07e;}
+
 #buy_product #gia_san_pham{
   text-align: center;
   padding-top: 10px;
@@ -664,10 +667,11 @@ width: 200px;
   border-radius: 11px;
 }
 #buy_product{
+  border: solid 1px blueviolet;
   width: 200px;
   height: 300px;
   float: left;
-  margin: 8.5px;
+  margin: 7px;
 }
 
 #buy_product #ten_san_pham{
@@ -678,6 +682,11 @@ width: 200px;
   float: left;
   text-align: center;
   text-decoration: none;
+}
+
+#ten_san_pham:hover{
+  color: #59c3da;
+  font-size: 15px;
 }
 
 #button_buy{
@@ -695,3 +704,44 @@ width: 200px;
   text-align: center;
   font-size: 13px;
 }
+
+#trans_page_back{
+  border: solid 1px;
+  float: left;
+  width: 120px;
+  height: 25px;
+  background-color: #29a07e;
+  text-align: center;
+  line-height: 23px;
+}
+
+#trans_page_next{
+  border: solid 1px;
+  float: right;
+  width: 120px;
+  height: 25px;
+  background-color: #29a07e;
+  text-align: center;
+  line-height: 23px;
+}
+
+#next_page {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: white;
+}
+
+#back_page{
+  text-decoration: none;
+  padding: 8px 16px;
+  color: white;
+}
+
+#trans_page_next:hover{
+  background-color: #d24141;
+}
+
+#trans_page_back:hover{
+  background-color: #d24141;
+}
+
