@@ -927,17 +927,24 @@ div#title_product{
     /* slideshow footer */
 
     .slideshow-container {
-      width: 1225px;
+      width: 1110px;
       position: relative;
       margin: auto;
-      height: 350px;
-      border: solid 1px;
+      height: 310px;
       float: left;
     }
 
     .mySlides img{
       height: 200px;
-      width: 375px;
+      width: 342px;
+    }
+
+    #footer_new{
+      float: left;
+      width: 342PX;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 2px 2px #e7e9eb;
     }
 
     /* Ẩn các slider */
@@ -957,6 +964,12 @@ div#title_product{
     }
   
     /* định dạng các chấm chuyển đổi các slide */
+
+    #text-dot{
+      margin-left: 520px;
+      float: left;
+    }
+
     .dot {
       cursor:pointer;
       height: 13px;
@@ -968,6 +981,16 @@ div#title_product{
       transition: background-color 0.6s ease;
       float: left;
     }
+
+    #text_footer{
+      height: 50px;
+      text-align: center;
+    }
+
+    #text_footer1{
+      text-align: center;
+    }
+
     /* khi được hover, active đổi màu nền */
     .active, .dot:hover {
       background-color: #717171;
