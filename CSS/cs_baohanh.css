@@ -43,7 +43,7 @@
     font-size: 15px;
     margin: 4px 150px 4px 0;
     padding: 11px 14px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 50%;
     background: #29A07E;
   }
@@ -97,7 +97,7 @@
     color: #29a07e;
   }
   .dropbtn {
-    background-color: #04AA6D;
+    background-color: #29a07e;
     color: white;
     padding: 5px;
     font-size: 16px;
@@ -129,7 +129,7 @@
   
   .dropdown-content a:hover {background-color: #ddd;}
   .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #d24141;}
   
   div#giohang{
     width: 280px;

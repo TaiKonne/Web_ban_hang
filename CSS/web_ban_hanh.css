@@ -105,7 +105,11 @@ div #logo{
 
 /* Gio hang start */
 .dropbtn {
+<<<<<<< HEAD
   background-color:#29a07e;
+=======
+  background-color: #29a07e;
+>>>>>>> 33597ca04c608fe2e009728cb83bb1341ad97bfa
   color: white;
   padding: 5px;
   font-size: 16px;
@@ -677,7 +681,7 @@ div#sp_hot_nor4 span#bth_insert_nor4{
 
 /* footer start */
 footer{
-  margin-top: 4000px;
+  margin-top: 3850px;
   width: auto;
   height:370px;
   background-color: #29A07E;
