@@ -102,8 +102,10 @@ div #logo{
   font-size: 30px;
   color: #29a07e;
 }
+
+/* Gio hang start */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color:#29a07e;
   color: white;
   padding: 5px;
   font-size: 16px;
@@ -135,7 +137,7 @@ div #logo{
 
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #d24141;}
 
 div#giohang{
   width: 280px;
