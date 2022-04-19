@@ -362,9 +362,12 @@ div#spp a{
 div#spp a:hover{
   color: red;
 }
-div#spp button{
+div#spp a#a1
+{
   float: right;
   margin: 10px;
+}
+div#spp button{
   padding: 10px 20px;
   border-radius: 10px;
   background-color: #29A07E;
