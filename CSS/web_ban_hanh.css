@@ -298,6 +298,7 @@ background-color: #29A07E;
 }
 nav ul li{
   float: left;
+  margin-left: 10px;
   padding:0px 10px 0px 5px;
 }
 nav ul li a{
