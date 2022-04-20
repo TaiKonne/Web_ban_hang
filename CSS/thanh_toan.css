@@ -79,16 +79,18 @@
     width: 500px;
     height: 40px;
     float: left;
-    padding: 30px 0px 30px 30px;
+    padding: 25px 0px 30px 30px;
   }
   .thanh_tim input[type=text]{
-    width: 390px;
-    height: 30px;
+    width: 400px;
+    height: 35px;
   }
   .thanh_tim button{
-    height: 33px;
-    width: 58px;
-    margin: 0px 0px 0px 10px;
+    height: 35px;
+    width: 50px;
+    margin-left: -4px;
+    color: white;
+    background-color: black;
   }
                                         /* ======================== cần được sửa icon shopee */
   #icon_shop{     
@@ -98,7 +100,7 @@
   #sdt{
     width: 190px;
     float: left;
-    padding: 30px 0px 30px 30px;
+    padding: 35px 0px 30px 30px;
   }
   #sdt b{
     font-size: 30px;
@@ -339,7 +341,20 @@ div#submt input , div#submt2 input{
   padding: 10px 20px;
   border: 1px solid #d24141;
 }
-
+/* body */
+div#abcxyz{
+  width: auto;
+  margin: 10px 0;
+  border: 2px solid #29a07e;
+  padding: 20px 0;
+  background-color: whitesmoke;
+}
+div#abcxyz{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d24141;
+}
 div#body2{
   width: auto;
   margin: 0 150px;
