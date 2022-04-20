@@ -36,6 +36,7 @@ div#ib ul li{
 }
 div#ib ul li a{
   font-size: 10px; 
+  color: white;
   text-decoration: none;
 }
 div#ib div#login {
@@ -318,12 +319,17 @@ div#mua_hang{
   height:  500px;
 }
 div#abcxyz{
-  margin: 0px;
+  width: auto;
+  margin: 10px 0;
   border: 2px solid #29a07e;
+  padding: 20px 0;
+  background-color: whitesmoke;
+}
+div#abcxyz{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-  padding: 10px;
+  color: #d24141;
 }
 div#haha{
   font-size: 25px;

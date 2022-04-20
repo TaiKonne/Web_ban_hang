@@ -31,6 +31,7 @@ div#ib ul li{
 }
 div#ib ul li a{
     font-size: 10px; 
+    color: white;
     text-decoration: none;
 }
 div#ib div#login {
@@ -210,15 +211,16 @@ div#icon_menu{
 
 div#my_acc{
     width: auto;
-    height: 60px;
+    padding: 20px 0;
     background-color: whitesmoke;
     border: 2px green solid;
 }
 div#my_acc p{
     text-align: center;
-    padding: 19px;
+    
     font-weight: bold;
-    font-size: 20px
+    font-size: 25px;
+    color: #d24141;
 }
 div#contact_form
 {
