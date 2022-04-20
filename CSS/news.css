@@ -33,7 +33,8 @@
     padding:14px 20px;
   }
   div#ib ul li a{
-    font-size: 10px; 
+    font-size: 10px;
+    color: white; 
     text-decoration: none;
   }
   div#ib div#login {

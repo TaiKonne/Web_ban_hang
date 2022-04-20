@@ -34,6 +34,7 @@
   }
   div#ib ul li a{
     font-size: 10px; 
+    color: white;
     text-decoration: none;
   }
   div#ib div#login {
