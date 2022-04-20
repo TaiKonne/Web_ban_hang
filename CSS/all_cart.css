@@ -309,15 +309,16 @@
   /* body */
   div#abc{
     width: auto;
-    border: 3px solid #29A07E;
+    border: 2px solid #29A07E;
+    background-color: whitesmoke;
     padding: 20px 0px;
-    margin: 10px 150px;
+    margin: 10px 0;
   }
   div#abc p{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color: #29A07E;
+    color: #d24141;
   }
   div#body{
     width: auto;

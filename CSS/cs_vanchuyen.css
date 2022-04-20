@@ -306,6 +306,19 @@ button:hover {
     float: left;
   }
 /* body */
+div#abcxyz{
+  width: auto;
+  margin: 10px 0;
+  border: 2px solid #29a07e;
+  padding: 20px 0;
+  background-color: whitesmoke;
+}
+div#abcxyz{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d24141;
+}
 div#top_center{
     margin: 50px 0;
     width: 1096px;
