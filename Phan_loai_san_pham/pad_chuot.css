@@ -321,7 +321,9 @@ article{
   display: table-row;
 }
 section{
-  width: 865px;
+  width: 825px;
+  padding-top: 10
+  px;
   display:table-cell;
 }
 div#title{
@@ -656,6 +658,7 @@ width: 200px;
   padding-top: 10px;
   color: #29a07e;
   font-weight: bolder;
+  padding: 2px;
 }
 
 #buy_product img{
@@ -667,8 +670,8 @@ width: 200px;
 #buy_product{
   width: 200px;
   height: 300px;
+  margin: 3px;
   float: left;
-  margin: 7px;
 }
 
 #buy_product #ten_san_pham{
